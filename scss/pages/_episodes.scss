@@ -1,0 +1,100 @@
+
+.episodes__contain {
+    //IFRAME
+    .episodes__video {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        // IFRAME RESPONSIVE
+        .responsive__container {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            padding-top: 56.25%;
+            
+                .responsive__container__video {
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                width: 100%;
+                height: 100%;
+                border: none;
+            }
+        }
+        .episodes__video__explain {
+            color: $color-second;
+            margin-top: 3rem;
+            margin-bottom: 2rem;
+            font-size: 3rem;
+            text-align: center;
+        }
+        p {
+                margin-left: 2rem;
+                margin-right: 2rem;
+                @extend %paragraph;
+            }
+    }
+
+    //TABS
+    a {
+            color: $color-main;
+            font-size: 2rem;
+            &:hover {
+                color: $color-details;
+            }
+        }
+    
+    .episodes__tab {
+        .nav-tabs:hover {
+            color: $color-details;
+        }
+        
+        .episodes__title {
+            text-align: center;
+            padding-top: 4rem;
+            margin-bottom: 4rem;
+            font-size: 2rem;
+            .episodes__span {
+                display: block;
+                font-weight: normal;
+                font-style: italic;
+                font-size: 3rem;
+            }
+        }
+        .card {
+            box-shadow: $box-shadows;
+            @extend %card-gen;
+
+            .card-img-top {
+                @extend %bw-tocolor-effect;
+            }
+
+            .episodes__card__body {
+                padding: $size-main*2;
+
+                .episodes__card__title {
+                    font-size: 2rem;
+                    color: $color-second;
+                    padding-bottom: $size-main*2;
+                }
+
+                .episodes__card__subtitle {
+                    font-size: 1.5rem;
+                    font-style: italic;
+                    color: $color-main;
+                    padding-bottom: $size-main/2;
+                }
+            }
+        
+            p {
+                margin-left: 2rem;
+                margin-right: 2rem;
+                @extend %paragraph;
+            }
+        }
+    }
+}
+
+
+

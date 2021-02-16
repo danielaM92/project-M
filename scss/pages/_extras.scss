@@ -1,0 +1,77 @@
+
+.extras__contain {
+    margin: 0;
+
+    .extras__divider {
+        @extend %divider;
+    }
+    //CARDS
+    .extras__card {
+        background-color: $color-third;
+        border-radius: $size-main;
+        @extend %paragraph,
+    }
+    .extras__card__img {
+        width: 100%;
+        padding: 0;
+    }
+    .extras__card__body {
+        padding: $size-main*2;
+    }
+
+    .extras__card__title {
+    @extend %titles;
+    }
+
+    .extras__card__btn {
+        justify-content: flex-end;
+        @extend %button-gen, %button-style,
+    }
+}
+
+    
+
+//PAGINATION
+    .extras__pagination {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: $size-main*3;
+        margin-bottom: $size-main*5;
+    .page-item.active .page-link {
+        @extend %pagination,
+    }
+    .page-link {
+        @extend %pagin-link,
+    }
+}
+
+// MODAL
+.modal__contain {
+    .modal-content {
+        @extend %modal-card,
+    }
+
+    .modal-body {
+        @extend %modal-img;
+    }
+
+    .modal-header {
+        @extend %modal-divider-none;
+        .modal__icon {
+        position: absolute;
+        right: 0%;
+        }
+        .pointer {
+        cursor: pointer;
+        }
+    .close-modal {
+        display: block;
+        margin: 3rem;
+        width: 2rem;
+        height: 2rem;  
+        }
+    }
+    
+}
+

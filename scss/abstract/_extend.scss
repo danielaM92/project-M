@@ -1,0 +1,110 @@
+    //PARALLAX 
+
+%parallax-main {
+    min-height: 100vh; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 7rem;
+}
+
+%parallax-title {
+    min-height: 15rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    //GENERAL
+
+%titles {
+    font-size: 2rem;
+    color: $color-second;
+    padding-bottom: $size-main;
+}
+
+%paragraph {
+    font-size: 1.5rem;
+    color: $color-main;
+}
+
+%divider {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4rem;
+}
+
+%card-gen {
+    background-color: $color-third;
+    border-radius: $size-main;
+}
+
+%button-gen {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    right: 0;
+    margin-top: $size-main;
+    box-shadow: $button-shadows;
+}
+
+%button-style {
+        display: inline-block;
+        color: rgb(29, 29, 31);
+        margin: 2rem;
+        padding: $size-main;
+        font-size: 1.5rem;
+        background-color: lightseagreen;
+        font-weight: bold;
+        text-transform: uppercase;
+        width: 15rem;
+        border: 0;
+        border-radius: $size-main;
+        &:hover {
+            background-color: $color-second;
+        }
+}
+
+// PAGINATION
+
+%pagination {
+    background-color: $color-third;
+    background-image: $gradient;
+    color: $color-main;
+    border-color: $color-third;
+}
+
+%pagin-link {
+    color: $color-third;
+}
+
+// MODAL
+
+%modal-card {
+    background-color: $color-third;
+}
+
+%modal-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+%modal-divider-none {
+    border-bottom: 0;
+}
+
+// IMAGES
+
+%bw-tocolor-effect {
+    filter: grayscale(80);
+    &:hover {
+        filter: none;
+    }
+}
+

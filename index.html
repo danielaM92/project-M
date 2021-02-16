@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Description and Keywords -->
+    <meta name="description" content="Fanpage containing information about the new Star Wars serie: The Mandalorian, created by Jon Favreau for the streaming platform Disney+.">
+    <meta name="keywords" content="mandalorian, star wars, Disney+, streaming, fanpage, Grogu">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!--Estilos css-->
+    <link rel="stylesheet" href="css/estilos.css">
+    <!--WOW css-->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--Poppins fuente-->
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,700;0,900;1,300;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!--Star wars fuente-->
+	<link rel="stylesheet" href="swFont/stylesheet.css" type="text/css" charset="utf-8" />
+
+    <title>Disney+: The Mandalorian</title>
+</head>
+
+<!--Inicio-->
+<body>
+    <header class="header__contain">
+        <div class="header__nav">
+        <!--Logo Nav-->
+            <a href="index.html">
+                <img src="images/general/mandalorianlogo.png" alt="The Mandalorian Logo" class="header__logo__mando">
+            </a>
+            <!--Abrir menu hamburguesa-->
+            <a href="#menu__m">
+                <img src="./images/general/icn_menu.svg" class="header__nav__icon open" alt="Open dropdown menu">
+            </a>
+        <!--Menu-->
+            <nav id="menu__m" class="header__nav__menu">
+                <!--Cerrar menu hamburguesa-->
+                <a href="#">
+                    <img src="./images/general/icn_close.svg" class="header__nav__icon close" alt="Close dropdown menu"></a>
+                <!--Links menu-->
+                <ul>
+                    <li>
+                        <a class="header__menu__link" href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="header__menu__link" href="creator.html">Creator</a>
+                    </li>
+                    <li>
+                        <a class="header__menu__link" href="characters.html">Characters</a>
+                    </li>
+                    <li>
+                        <a class="header__menu__link" href="episodes.html">Episodes</a>
+                    </li>
+                    <li>
+                        <a class="header__menu__link" href="extras.html">Extras</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!--parallax intro-->
+        <div class="header__parallax__main"></div>
+        <!--Introduccion-->
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="header__intro col-sm-4, col-md-12 col-lg-12 col-xl-12 animate__animated animate__fadeInDown">After the stories of Jango and Boba Fett, another warrior emerges in the Star Wars universe. “The Mandalorian” is set after the fall of the Empire and before the emergence of the First Order. We follow the travails of a lone gunfighter in the outer reaches of the galaxy, far from the authority of the New Republic. </h1>
+                </div>
+            </div>
+        </div>
+        <!--Parallax main-->
+        <div class="header__parallax__home"></div>
+        
+    </header>
+
+<main class="home__contain">
+    <div class="container">
+        <div class="row">
+            <!--Form-->
+            <div class="col col-sm-12 col-md-12 col-lg-6">
+                <form class="home__form"  method="GET" action="">
+                    <h3 class="subtitle animate__animated animate__fadeInLeft animate__delay-5s">COMMENTS</h3>
+                    <!--Name-->
+                    <div class="form-group mb-3 home__form">
+                        <div class="form-floating w-100">
+                            <input type="name" class="form-control" id="floatingInput" placeholder="John Doe">
+                            <label for="floatingInput">Name</label>
+                        </div>
+                    </div>
+                    <!--email-->
+                    <div class="form-group mb-3 home__form">
+                        <div class="form-floating w-100">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+                            <label for="floatingInput">Email address</label>
+                        </div>
+                    </div>
+                    <!--favorite character dropdown-->
+                    <div class="form-floating home__form">
+                        <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                        <option value="0" selected></option>
+                        <option value="1">The Mandalorian</option>
+                        <option value="2">Grogu</option>
+                        <option value="3">Moff Gideon</option>
+                        <option value="4">Cara Dune</option>
+                        <option value="5">Bobba Fett</option>
+                        <option value="6">IG-11</option>
+                    </select>
+                    <label for="floatingSelect">Select your favorite character</label>
+                    </div>
+                    <!--age range-->
+                    <div class="form-group home__form home__form--color">
+                        <label class="home__form__age" for="age">Age Range:</label>
+                        <label class="radio-inline"><input type="radio" name="optradio" checked>14-20</label>
+                        <label class="radio-inline"><input type="radio" name="optradio">21-30</label>
+                        <label class="radio-inline"><input type="radio" name="optradio">31-40</label>
+                        <label class="radio-inline"><input type="radio" name="optradio">41-60</label>
+                        <label class="radio-inline"><input type="radio" name="optradio">60+</label>
+                    </div>
+                    <!--Comment-->
+                    <div class="form-floating home__form">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 150px"></textarea>
+                        <label for="floatingTextarea2">Comments</label>
+                    </div>
+                    <!--Terms and conditions-->
+                    <div class="form-check home__form home__form--color">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" unchecked required>
+                        <label class="form-check-label" for="flexCheckChecked">
+                            I accept <a href="#" target="_blank" class="form__terminos">terms and conditions</a>.
+                        </label>
+                    </div>
+                    <!--Buttons-->
+                    <div class="home__form__button">
+                        <button type="reset" class="btn btn-default form__button__style">Refresh</button>
+                        <button type="submit" class="btn btn-default form__button__style">Submit</button>
+                    </div>
+                </form> 
+            </div>
+            
+            <!--More star wars-->
+            <div class="col col-sm-12 col-md-12 col-lg-6 home__destacados">
+                <h3 class="subtitle animate__animated animate__fadeInLeft animate__delay-5s">MORE STAR WARS</h3>
+
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <!--carusel item 1-->
+                        <div class="carousel-inner home__carousel">
+                            <div class="carousel-item active">
+                                <img src="images/home-aside/clone-wars.jpeg" class="d-block w-100 home__carousel__img" alt="Image of Clone Wars the Series">
+                                <div>
+                                    <h4 class="home__mini__sub">Star Wars:</h4>
+                                    <h3 class="subtitle subtitle--size">The Clone Wars</h3>
+                                    <p>Adventures of Anakin Skywalker, Yoda, Obi-Wan Kenobi and others during the violent Clone Wars, as dwindling numbers of Jedi knights struggle to restore peace.</p>
+                                </div>
+                            </div>
+                        <!--carusel item 2-->
+                            <div class="carousel-item home__carousel">
+                                <img src="images/home-aside/lego.jpeg" class="d-block w-100 home__carousel__img" alt="Image of Lego Star Wars the Series">
+                                <div>
+                                    <h4 class="home__mini__sub">Star Wars:</h4>
+                                    <h3 class="subtitle subtitle--size">LEGO Series</h3>
+                                    <p>The brand has spawned an eponymous video game series containing six video games, many short films and miniseries have also been produced.</p>
+                                </div>
+                            </div>
+                            <!--carusel item 3-->
+                            <div class="carousel-item home__carousel">
+                                <img src="images/home-aside/rebels.jpeg" class="d-block w-100 home__carousel__img" alt="Image of Rebels from Star wars the Series">
+                                <div>
+                                    <h4 class="home__mini__sub">Star Wars:</h4>
+                                    <h3 class="subtitle subtitle--size">Rebels</h3>
+                                    <p>Imperial forces occupy a remote planet with an iron fist. A crew aboard the starship Ghost takes a stand against the Empire as they attempt to ignite a rebellion.</p>
+                                </div>
+                            </div>
+                            <!--carusel item 4-->
+                            </div>
+                            <div class="carousel-item home__carousel">
+                                <img src="images/home-aside/resistance.jpeg" class="d-block w-100 home__carousel__img" alt="Image of Star Wars the Resistance the Series">
+                                <div>
+                                    <h4 class="home__mini__sub">Star Wars:</h4>
+                                    <h3 class="subtitle subtitle--size">Resistance</h3>
+                                    <p>Young New Republic pilot Kazuda Xiono is recruited by Resistance Commander Poe Dameron for a secret mission on Colossus an aircraft refueling station on the ocean planet of Castilon.</p>
+                                </div>
+                            </div>
+
+                            <!--Control carusel-->
+                            <a class="carousel-control-prev .justify-content-start" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                            <img class="home__carousel__arrow" src="images/general/icn_left.svg" aria-hidden="true" alt="Previous">
+                            <span class="visually-hidden">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                            <img class="home__carousel__arrow" src="images/general/icn_right.svg" aria-hidden="true" alt="Next">
+                            <span class="visually-hidden">Next</span>
+                            </a>
+                        </div>
+            </div>
+        </div>
+    </div>
+</main>
+<!--Footer-->
+<footer class="footer__contain">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img src="images/general/disney-plus-logo.png" alt="Logo Disney+" class="footer__logo">
+                <p class="copyrightFooter">Disney+ is a paid subscription service, its content is subject to availability. The Disney+ service is marketed by The Walt Disney Company Colombia S.A., Calle 70 Bis No. 4-41, Bogota, D.C., Colombia and the NIT number is 800.236.937.</p>
+                <p class="footer__copyright">Copyright © 2021</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <!-- Script: Separate Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    <!-- Script: WOW Animate -->
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
+</body>
+</html>

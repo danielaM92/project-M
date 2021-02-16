@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Description and Keywords -->
+    <meta name="description" content="Here you will find everything you ever wanted to know about your favorite 'The Mandalorian' characters, from our main Mandalorian to the cutest baby in the universe and some new characters and old faces that we all love to see.">
+    <meta name="keywords" content="mandalorian, star wars, Disney+, streaming, fanpage, characters, Grogu, Din Djarin, Ahsoka Tano, Bobba Fett">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!--Estilos css-->
+    <link rel="stylesheet" href="css/estilos.css">
+    <!-- DEMO CAROUSEL CSS -->
+    <link rel="stylesheet" href="css/carousel.css">
+    <!--WOW css-->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--Poppins fuente-->
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,700;0,900;1,300;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!--Star wars fuente-->
+	<link rel="stylesheet" href="swFont/stylesheet.css" type="text/css" charset="utf-8" />
+
+    <title>The Mandalorian: The Characters</title>
+</head>
+<!--Inicio-->
+<body>
+    <header class="header__contain">
+        <div class="header__nav">
+        <!--Logo Nav-->
+            <a href="index.html">
+                <img src="images/general/mandalorianlogo.png" alt="The Mandalorian Logo" class="header__logo__mando">
+            </a>
+            <!--Abrir menu hamburguesa-->
+            <a href="#menu__m">
+                <img src="./images/general/icn_menu.svg" class="header__nav__icon open" alt="Open dropdown menu">
+            </a>
+        <!--Menu-->
+            <nav id="menu__m" class="header__nav__menu">
+                <!--Cerrar menu hamburguesa-->
+                <a href="#">
+                    <img src="./images/general/icn_close.svg" class="header__nav__icon close" alt="Close dropdown menu"></a>
+                <!--Links menu-->
+                <ul>
+                    <li>
+                        <a class="header__menu__link" href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="header__menu__link" href="creator.html">Creator</a>
+                    </li>
+                    <li>
+                        <a class="header__menu__link" href="characters.html">Characters</a>
+                    </li>
+                    <li>
+                        <a class="header__menu__link" href="episodes.html">Episodes</a>
+                    </li>
+                    <li>
+                        <a class="header__menu__link" href="extras.html">Extras</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!--Parallax title-->
+        <div class="header__parallax__characters"><h2 class="header__title">Characters</h2></div>
+        
+    </header>
+
+    <main class="charas__contain">
+        <div class="container">
+            <div class="col">
+                <!-- CAROUSEL CHARACTERS -->
+                <div class='demo-container'>
+                    <div class='carousel'>
+                        <input checked='checked' class='carousel__activator' id='carousel-slide-activator-1' name='carousel' type='radio'>
+                        <input class='carousel__activator' id='carousel-slide-activator-2' name='carousel' type='radio'>
+                        <input class='carousel__activator' id='carousel-slide-activator-3' name='carousel' type='radio'>
+                        <!-- CAROUSEL CONTROLS -->
+                        <div class='carousel__controls'>
+                            <label class='carousel__control carousel__control--forward' for='carousel-slide-activator-2'>
+                                <img class="home__carousel__arrow" src="images/general/icn_right.svg" aria-hidden="true" alt="Next">
+                            </label>
+                        </div>
+                        <div class='carousel__controls'>
+                            <label class='carousel__control carousel__control--backward' for='carousel-slide-activator-1'>
+                                <img class="home__carousel__arrow" src="images/general/icn_left.svg" aria-hidden="true" alt="Previous">
+                                <span class="visually-hidden">Previous</span>
+                            </label>
+                            <label class='carousel__control carousel__control--forward' for='carousel-slide-activator-3'>
+                                <img class="home__carousel__arrow" src="images/general/icn_right.svg" aria-hidden="true" alt="Next">
+                            </label>
+                        </div>
+                        <div class='carousel__controls'>
+                            <label class='carousel__control carousel__control--backward' for='carousel-slide-activator-2'>
+                                <img class="home__carousel__arrow" src="images/general/icn_left.svg" aria-hidden="true" alt="Previous">
+                                <span class="visually-hidden">Previous</span>
+                            </label>
+                        </div>
+                        <!-- GROGU PERSONAJE -->
+                        <div class='carousel__screen'>
+                            <div class='carousel__track'>
+                            <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
+                                <div class='demo-content'>
+                                    <a href=""><img class="carousel__img" src="images/characters/minicarusel/mini-grogu.jpg" alt=""></a>
+                                </div>
+                            </div>
+                            <!-- MANDO PERSONAJE -->
+                            <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
+                                <div class='demo-content'>
+                                    <a  href=""><img class="carousel__img" src="images/characters/minicarusel/mini-mando.jpg" alt=""></a>
+                                </div>
+                            </div>
+                            <!-- ASHOKA PERSONAJE -->
+                            <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
+                                <div class='demo-content'>
+                                    <a href=""><img class="carousel__img" src="images/characters/minicarusel/mini-ashoka.jpg" alt=""></a>
+                                </div>
+                            </div>
+                            <!-- MOFF GIDEON PERSONAJE -->
+                            <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
+                                <div class='demo-content'>
+                                    <a href=""><img class="carousel__img" src="images/characters/minicarusel/mini-moff.jpg" alt=""></a>
+                                </div>
+                            </div>
+                            <!-- CARA PERSONAJE -->
+                            <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
+                                <div class='demo-content'>
+                                    <a href=""><img class="carousel__img" src="images/characters/minicarusel/mini-cara.jpg" alt=""></a>
+                                </div>
+                            </div>
+                            <!-- BOBA FETT PERSONAJE -->
+                            <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
+                                <div class='demo-content'>
+                                    <a href=""><img class="carousel__img" src="images/characters/minicarusel/mini-boba.jpg" alt=""></a>
+                                </div>
+                            </div>
+                            <!-- FENNEC PERSONAJE -->
+                            <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
+                                <div class='demo-content'>
+                                    <a href=""><img class="carousel__img" src="images/characters/minicarusel/mini-fennec.jpg" alt=""></a>
+                                </div>
+                            </div>
+                            <!-- BO-KATAN PERSONAJE -->
+                            <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
+                                <div class='demo-content'>
+                                    <a href=""><img class="carousel__img" src="images/characters/minicarusel/mini-katan.jpg" alt=""></a>
+                                </div>
+                            </div>
+                            <!-- IG-11 PERSONAJE -->
+                            <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
+                                <div class='demo-content'>
+                                    <a href=""><img class="carousel__img" src="images/characters/minicarusel/mini-ig11.jpg" alt=""></a>
+                                </div>
+                            </div>
+                            <!-- KUIIL PERSONAJE -->
+                            <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
+                                <div class='demo-content'>
+                                    <a href=""><img class="carousel__img" src="images/characters/minicarusel/mini-kuiil.jpg" alt=""></a>
+                                </div>
+                            </div>
+                            <!-- GREEF PERSONAJE -->
+                            <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
+                                <div class='demo-content'>
+                                    <a href=""><img class="carousel__img" src="images/characters/minicarusel/mini-greef.jpg" alt=""></a>
+                                </div>
+                            </div>
+                            <!-- VANTH PERSONAJE -->
+                            <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
+                                <div class='demo-content'>
+                                    <a href=""><img class="carousel__img" src="images/characters/minicarusel/mini-cobb.jpg" alt=""></a>
+                                </div>
+                            </div>
+                            <!-- MAYFIELD PERSONAJE -->
+                            <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
+                                <div class='demo-content'>
+                                    <a href=""><img class="carousel__img" src="images/characters/minicarusel/mini-mayfield.jpg" alt=""></a>
+                                </div>
+                            </div>
+                            <!-- FROG LADY PERSONAJE -->
+                            <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
+                                <div class='demo-content'>
+                                    <a href=""><img class="carousel__img" src="images/characters/minicarusel/mini-froglady.jpg" alt=""></a>
+                                </div>
+                            </div>
+                        
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--EXPLANATION CHARACTER-->
+        <div class="container charas__main__img">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <img class="img-fluid animate__animated animate__fadeIn" src="images/characters/main/grogu-main.png" alt="Grogu">
+                </div>
+                <div class="col charas__main__desc">
+                    <h3 class="charas__main__title animate__animated animate__pulse animate__delay-1s">GROGU</h3>
+                    <h4 class="charas__main__subtitle animate__animated animate__fadeIn animate__delay-1s">"The Child"</h4>
+                    <p class="animate__animated animate__fadeIn animate__delay-2s">Grogu, known to many simply as "the Child," was a male Force-sensitive Mandalorian foundling that belonged to the same species as Jedi Grand Master Yoda and Jedi Master Yaddle. Grogu was born in the year 41 BBY, and was raised at the Jedi Temple on Coruscant.</p>
+                    <p class="animate__animated animate__fadeIn animate__delay-3s">Grogu was eventually held at a hideout run by Nikto mercenaries on Arvala-7 during the New Republic Era, having survived the siege of the Jedi Temple decades prior. While still an infant at the age of fifty years, he was sought, on behalf of Moff Gideon, by an Imperial who hired Mandalorian bounty hunter Din Djarin to retrieve him.</p>
+                    <p class="animate__animated animate__fadeIn animate__delay-5s">However, Djarin chose not to leave Grogu with the Imperials and rescued him from the Imperial remnant facility. After attempting to hide with Grogu along the fringes of the galaxy, Djarin returned to Nevarro to deal with the Imperials chasing Grogu in hopes of keeping him safe. In the process, Grogu became a Mandalorian foundling and the single other member of Djarin's newly created clan. As a result, Djarin took up a new mission: to deliver Grogu back to the Jedi.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- GALLERY CHRACTER-->
+        <div class="container">
+            <h3 class="subtitle subtitle--placing animate__animated animate__fadeInLeft animate__delay-5s">GALLERY</h3>
+            <img class="gallery__divider" src="images/general/line_divider.svg" alt="">
+        </div>
+        <div class="container">
+            <div class="row row-cols-auto charas__gallery__row">
+                <div class="col charas__gallery__col">
+                    <img class="img-fluid" src="images/characters/grogu/grogu-gal-1.jpg" alt=""></div>
+                <div class="col charas__gallery__col">
+                    <img class="img-fluid" src="images/characters/grogu/grogu-gal-2.jpeg" alt=""></div>
+                <div class="col charas__gallery__col">
+                    <img class="img-fluid" src="images/characters/grogu/grogu-gal-3.jpg" alt=""></div>
+                <div class="col charas__gallery__col">
+                    <img class="img-fluid" src="images/characters/grogu/grogu-gal-4.jpg" alt=""></div>
+                <div class="col charas__gallery__col">
+                    <img class="img-fluid" src="images/characters/grogu/grogu-gal-5.jpg" alt=""></div>
+                <div class="col charas__gallery__col">
+                    <img class="img-fluid" src="images/characters/grogu/grogu-main.jpg" alt=""></div>
+            </div>
+        </div>
+        
+    </main>
+
+<!--Footer-->
+<footer class="footer__contain">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img src="images/general/disney-plus-logo.png" alt="Logo Disney+" class="footer__logo">
+                <p class="copyrightFooter">Disney+ is a paid subscription service, its content is subject to availability. The Disney+ service is marketed by The Walt Disney Company Colombia S.A., Calle 70 Bis No. 4-41, Bogota, D.C., Colombia and the NIT number is 800.236.937.</p>
+                <p class="footer__copyright">Copyright © 2021</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <!-- Script: Separate Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    <!-- Script: WOW Animate -->
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
+</body>
+</html>

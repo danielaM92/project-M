@@ -1,0 +1,414 @@
+
+// Media querie DESKTOP 1444px
+
+@media screen and (max-width: 1444px) {
+    .header__nav {
+        position: fixed;
+        left: 0px;
+        height: 15rem;
+        font-family: $font-second;
+        letter-spacing: $size-main;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: $size-main;
+        padding-left: 10rem; 
+        padding-right: 10rem; 
+        background-color: $color-third;
+        background-image: $gradient;
+        z-index: 50;
+    }
+    .header__contain {
+        .header__parallax__main{
+            background-image: url("../images/parallax/main-header.jpeg");
+            background-position-x: -105rem;
+        }
+    }
+}
+
+// // MEDIA QUERIE LATOP MIN 1240px 
+
+// @media screen and (max-width: 1240px) {
+//     header ul li a {
+//         color: $color-main;
+//         font-size: 1.5rem;
+//         font-family: $font-second;
+//         letter-spacing: 0.3rem;
+//     }
+//     .header__nav {
+//         position: fixed;
+//         left: 0px;
+//         height: 15rem;
+//         font-family: $font-second;
+//         letter-spacing: $size-main;
+//         width: 100%;
+//         display: flex;
+//         justify-content: center;
+//         padding-top: $size-main;
+//         padding-left: 5rem; 
+//         padding-right: 5rem; 
+//         background-color: $color-third;
+//         background-image: $gradient;
+//         z-index: 50;
+//     }
+// }
+
+// MEDIA QUERIE LATOP MIN 1200px
+
+@media screen and (max-width: 1200px) {
+    header ul li a {
+        color: $color-main;
+        font-size: $size-main;
+        font-family: $font-second;
+        letter-spacing: 0.3rem;
+    }
+    .header__nav {
+        position: fixed;
+        left: 0px;
+        height: 15rem;
+        font-family: $font-second;
+        letter-spacing: $size-main;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: $size-main;
+        padding-left: 2rem; 
+        padding-right: 2rem; 
+        background-color: $color-third;
+        background-image: $gradient;
+        z-index: 50;
+    }
+}
+
+// MEDIA QUERIE LATOP MIN 1199px
+@media screen and (max-width: 1199px) {
+
+    //HEADER
+
+    header nav {
+        position: fixed;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        top: -100%;
+        width: 100%;
+        height: 100vh;
+        background-color: $color-third;
+        background-image: $gradient;
+        transition: top 0.5s;
+    }
+
+    #menu__m:target {
+        display: block;
+        top: 0;
+    }
+    
+    .header__nav__icon {
+        display: block;
+        margin: 0;
+        }
+
+    .close {
+        position: absolute;
+        right: 12rem;
+        top: 6rem;
+    }
+
+    .header__contain {
+        .header__nav {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        ul {
+            width: 100%;
+            height: 100%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            li {
+                margin: 2rem 0;
+                a {
+                    font-size: 4rem;
+                    letter-spacing: 0.3rem;
+                }
+            }
+        }
+        .header__parallax__main{
+            background-image: url("../images/parallax/mini/main-header-min.jpeg");
+            background-position-y: 6rem;
+            background-position-x: -115rem;
+        }
+
+        .header__intro {
+            color:$color-main;
+            font-size: 3rem;
+            font-family: $font-second;
+            text-align: center;
+            padding: 6rem;
+            line-height: 1.6;
+            letter-spacing: $size-main;
+        }
+    }
+
+    //FORM
+
+.home__form__age {
+    font-size: 1.5rem;
+}
+}
+
+// MEDIA QUERIE TABLET 768px
+
+@media screen and (max-width: 768px) {
+
+    //HEADER
+
+    header nav {
+        position: fixed;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        top: -100%;
+        width: 100%;
+        height: 100vh;
+        background-color: $color-third;
+        background-image: $gradient;
+        transition: top 0.5s;
+    }
+
+    #menu__m:target {
+        display: block;
+        top: 0;
+    }
+    
+    .header__nav__icon {
+        display: block;
+        margin: 0;
+        }
+
+    .close {
+        position: absolute;
+        right: 12rem;
+        top: 6rem;
+    }
+
+    .header__contain {
+        .header__nav {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        ul {
+            width: 100%;
+            height: 100%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            li {
+                margin: 2rem 0;
+                a {
+                    font-size: 4rem;
+                    letter-spacing: 0.3rem;
+                }
+            }
+        }
+        .header__parallax__main{
+            background-image: url("../images/parallax/mini/main-header-min.jpeg");
+            background-position-y: 6rem;
+            background-position-x: -80rem;
+        }
+
+        .header__parallax__home {
+            background-image: url("../images/parallax/mini/main-image-min.jpeg");
+            background-position-y: 6rem;
+            background-position-x: -40rem;
+        }
+
+        .header__intro {
+            color:$color-main;
+            font-size: 3rem;
+            font-family: $font-second;
+            text-align: center;
+            padding: 6rem;
+            line-height: 1.6;
+            letter-spacing: $size-main;
+        }
+    }
+
+    //FORM
+
+.home__form__age {
+    font-size: 1.5rem;
+}
+
+    //MODAL - EXTRAS
+    .modal-header {
+        .modal__icon {
+        position: absolute;
+        right: 0rem;
+        top: 0rem;
+        }
+        .pointer {
+        cursor: pointer;
+        }
+    .close-modal {
+        width: 2rem;
+        height: 2rem;  
+        }
+    }
+}
+
+
+    //MEDIA QUERIE CELULAR 576px
+@media screen and (max-width: 576px) {
+
+    //HEADER
+
+    .container {
+        padding: 0;
+    }
+
+    header nav {
+        position: fixed;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        top: -100%;
+        width: 100%;
+        height: 100%;
+        background-color: $color-third;
+        background-image: $gradient;
+        transition: top 0.5s;
+    }
+
+    #menu__m:target {
+        display: block;
+        top: 0;
+    }
+    
+    .header__nav__icon {
+        display: block;
+        margin: 0;
+        width: 5rem;
+        height: 5rem;
+        }
+
+    .close {
+        position: absolute;
+        right: 4rem;
+        top: 4rem;
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .header__contain {
+        margin: 0;
+        padding: 0;
+        .header__nav {
+            display: flex;
+            justify-content: space-evenly;
+
+            .header__logo__mando{
+                height: 6rem;
+                width: 18rem;
+                // margin-left: 30rem;
+            }
+        }
+
+        ul {
+            width: 100%;
+            height: 100%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            li {
+                margin: 2rem 0;
+                a {
+                    font-size: 2rem;
+                    letter-spacing: 0.3rem;
+                }
+            }
+        }
+        .header__parallax__main{
+            background-image: url("../images/parallax/mini/main-header-min.jpeg");
+            background-position-y: 6rem;
+            background-position-x: -150rem;
+        }
+
+        .header__parallax__home {
+            background-image: url("../images/parallax/mini/main-image-min.jpeg");
+            background-position-y: 6rem;
+            background-position-x: -70rem;
+        }
+
+        .header__title{
+            color:$color-main;
+            font-size: 3rem;
+            font-family: $font-second;
+            text-align: center;
+            padding: 40rem 0;
+            line-height: 1.6;
+            letter-spacing: $size-main;
+        }
+
+        .header__intro {
+            color:$color-main;
+            font-size: 3rem;
+            font-family: $font-second;
+            text-align: center;
+            padding: $size-main;
+            margin: 3rem 0;
+            line-height: 5rem;
+            letter-spacing: 0.6rem;
+        }
+    }
+
+    //FORM
+
+.home__form__age {
+    font-size: 1.5rem;
+}
+.home__form--color {
+font-size: 1.8rem;
+color: $color-main;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+    //CAROUSEL
+
+    .home__carousel__arrow {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    //MODAL - EXTRAS
+    .modal-header {
+        .modal__icon {
+        position: absolute;
+        right: 0rem;
+        top: 0rem;
+        }
+        .pointer {
+        cursor: pointer;
+        }
+    .close-modal {
+        width: 2rem;
+        height: 2rem;  
+        }
+    }
+
+    //CHARACTERS MAIN
+    .charas__contain {
+        display: flex;
+        flex-direction: column;
+        .charas__main__img {
+            width: 70%;
+        }
+    }
+
+}

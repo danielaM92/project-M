@@ -1,0 +1,681 @@
+.header__contain .header__parallax__main, .header__contain .header__parallax__home {
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 7rem; }
+
+.header__contain .header__parallax__creators, .header__contain .header__parallax__characters, .header__contain .header__parallax__episodes, .header__contain .header__parallax__extras {
+  min-height: 15rem;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.charas__contain .charas__main__img .charas__main__desc .charas__main__title, .extras__contain .extras__card__title {
+  font-size: 2rem;
+  color: orange;
+  padding-bottom: 1rem; }
+
+.home__contain .home__destacados, .creators__contain p, .charas__contain .charas__main__img .charas__main__desc p, .episodes__contain .episodes__video p, .episodes__contain .episodes__tab .card p, .extras__contain .extras__card {
+  font-size: 1.5rem;
+  color: #ffebcd; }
+
+.creators__contain .creators__divider, .charas__contain .gallery__divider, .extras__contain .extras__divider {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4rem; }
+
+.episodes__contain .episodes__tab .card {
+  background-color: #151515;
+  border-radius: 1rem; }
+
+.home__contain .home__form .home__form__button, .extras__contain .extras__card__btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  right: 0;
+  margin-top: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+
+.home__contain .home__form .form__button__style, .extras__contain .extras__card__btn {
+  display: inline-block;
+  color: #1d1d1f;
+  margin: 2rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+  background-color: lightseagreen;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 15rem;
+  border: 0;
+  border-radius: 1rem; }
+  .home__contain .home__form .form__button__style:hover, .extras__contain .extras__card__btn:hover {
+    background-color: orange; }
+
+.extras__pagination .page-item.active .page-link {
+  background-color: #151515;
+  background-image: repeating-linear-gradient(#1b1b1b, black);
+  color: #ffebcd;
+  border-color: #151515; }
+
+.extras__pagination .page-link {
+  color: #151515; }
+
+.modal__contain .modal-content {
+  background-color: #151515; }
+
+.modal__contain .modal-body {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4rem;
+  margin-bottom: 4rem; }
+
+.modal__contain .modal-header {
+  border-bottom: 0; }
+
+.home__contain .home__destacados .home__carousel .home__carousel__img, .episodes__contain .episodes__tab .card .card-img-top {
+  filter: grayscale(80); }
+  .home__contain .home__destacados .home__carousel .home__carousel__img:hover, .episodes__contain .episodes__tab .card .card-img-top:hover {
+    filter: none; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 10px; }
+
+body {
+  background-color: #151515;
+  background-image: url("../images/general/BG__site.jpeg");
+  background-repeat: repeat;
+  color: #ffebcd;
+  font-family: "Poppins", sans-serif; }
+
+a {
+  text-decoration: none;
+  color: #f5f5f5; }
+
+li {
+  list-style: none; }
+
+header .header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.header__contain .header__nav {
+  position: fixed;
+  left: 0px;
+  height: 12rem;
+  font-family: "death_starregular", sans-serif;
+  letter-spacing: 1rem;
+  width: 100%;
+  padding-top: 1rem;
+  background-color: #151515;
+  background-image: repeating-linear-gradient(#1b1b1b, black);
+  z-index: 50;
+  display: flex;
+  justify-content: space-evenly; }
+
+.header__contain .header__logo__mando {
+  height: 7.5rem;
+  width: 24rem; }
+
+.header__contain ul {
+  display: flex; }
+  .header__contain ul li {
+    margin-left: 3rem;
+    padding-top: 2rem; }
+    .header__contain ul li a {
+      color: #ffebcd;
+      font-size: 2rem;
+      font-family: "death_starregular", sans-serif;
+      letter-spacing: 0.3rem; }
+
+.header__contain .header__menu__link {
+  transition: 0.3s ease;
+  text-decoration: none;
+  padding: 2rem 0;
+  margin: 0 2rem; }
+  .header__contain .header__menu__link:hover {
+    border-top: 2px solid #f5f5f5;
+    border-bottom: 2px solid #f5f5f5;
+    padding: 0.8rem 0;
+    color: #f5f5f5; }
+
+.header__contain .header__intro {
+  color: #ffebcd;
+  font-size: 4rem;
+  font-family: "death_starregular", sans-serif;
+  text-align: center;
+  padding: 8rem;
+  line-height: 1.6;
+  letter-spacing: 1rem; }
+
+.header__contain .header__parallax__main {
+  background-image: url("../images/parallax/main-header.jpeg"); }
+
+.header__contain .header__parallax__home {
+  min-height: 50rem;
+  background-image: url("../images/parallax/main-image.jpeg"); }
+
+.header__contain .header__parallax__creators {
+  background-image: url("../images/parallax/sw-creators.jpg"); }
+
+.header__contain .header__parallax__characters {
+  background-image: url("../images/parallax/sw-characters.jpg"); }
+
+.header__contain .header__parallax__episodes {
+  background-image: url("../images/parallax/sw-episodes.jpg"); }
+
+.header__contain .header__parallax__extras {
+  background-image: url("../images/parallax/sw-extras.jpg"); }
+
+.header__contain .header__title {
+  color: #ffebcd;
+  font-size: 4rem;
+  font-family: "death_starregular", sans-serif;
+  text-align: center;
+  padding: 30rem 0 20rem 0;
+  line-height: 1.6;
+  letter-spacing: 1rem; }
+
+.header__nav__icon {
+  display: none; }
+
+.subtitle {
+  color: #dba759;
+  margin: 3rem 0 3rem 0;
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 0.5rem; }
+  .subtitle.subtitle--size {
+    margin: 0.5rem 0;
+    font-size: 2rem;
+    letter-spacing: 0; }
+  .subtitle.subtitle--placing {
+    text-align: center; }
+
+.footer__contain {
+  margin-left: 0p;
+  margin-right: 0;
+  margin-top: 8rem;
+  padding: 2rem;
+  background-color: #151515;
+  background-image: repeating-linear-gradient(#1b1b1b, black);
+  height: auto;
+  text-align: center;
+  z-index: 40; }
+  .footer__contain .footer__logo {
+    margin-left: auto;
+    margin-right: auto;
+    height: 6rem;
+    width: 10rem;
+    padding: 0.5rem; }
+  .footer__contain .footer__copyright {
+    font-size: "Poppins", sans-serif;
+    font-weight: 300; }
+
+@media screen and (max-width: 1444px) {
+  .header__nav {
+    position: fixed;
+    left: 0px;
+    height: 15rem;
+    font-family: "death_starregular", sans-serif;
+    letter-spacing: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    background-color: #151515;
+    background-image: repeating-linear-gradient(#1b1b1b, black);
+    z-index: 50; }
+  .header__contain .header__parallax__main {
+    background-image: url("../images/parallax/main-header.jpeg");
+    background-position-x: -105rem; } }
+
+@media screen and (max-width: 1200px) {
+  header ul li a {
+    color: #ffebcd;
+    font-size: 1rem;
+    font-family: "death_starregular", sans-serif;
+    letter-spacing: 0.3rem; }
+  .header__nav {
+    position: fixed;
+    left: 0px;
+    height: 15rem;
+    font-family: "death_starregular", sans-serif;
+    letter-spacing: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: #151515;
+    background-image: repeating-linear-gradient(#1b1b1b, black);
+    z-index: 50; } }
+
+@media screen and (max-width: 1199px) {
+  header nav {
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: -100%;
+    width: 100%;
+    height: 100vh;
+    background-color: #151515;
+    background-image: repeating-linear-gradient(#1b1b1b, black);
+    transition: top 0.5s; }
+  #menu__m:target {
+    display: block;
+    top: 0; }
+  .header__nav__icon {
+    display: block;
+    margin: 0; }
+  .close {
+    position: absolute;
+    right: 12rem;
+    top: 6rem; }
+  .header__contain .header__nav {
+    display: flex;
+    justify-content: space-around; }
+  .header__contain ul {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .header__contain ul li {
+      margin: 2rem 0; }
+      .header__contain ul li a {
+        font-size: 4rem;
+        letter-spacing: 0.3rem; }
+  .header__contain .header__parallax__main {
+    background-image: url("../images/parallax/mini/main-header-min.jpeg");
+    background-position-y: 6rem;
+    background-position-x: -115rem; }
+  .header__contain .header__intro {
+    color: #ffebcd;
+    font-size: 3rem;
+    font-family: "death_starregular", sans-serif;
+    text-align: center;
+    padding: 6rem;
+    line-height: 1.6;
+    letter-spacing: 1rem; }
+  .home__form__age {
+    font-size: 1.5rem; } }
+
+@media screen and (max-width: 768px) {
+  header nav {
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: -100%;
+    width: 100%;
+    height: 100vh;
+    background-color: #151515;
+    background-image: repeating-linear-gradient(#1b1b1b, black);
+    transition: top 0.5s; }
+  #menu__m:target {
+    display: block;
+    top: 0; }
+  .header__nav__icon {
+    display: block;
+    margin: 0; }
+  .close {
+    position: absolute;
+    right: 12rem;
+    top: 6rem; }
+  .header__contain .header__nav {
+    display: flex;
+    justify-content: space-around; }
+  .header__contain ul {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .header__contain ul li {
+      margin: 2rem 0; }
+      .header__contain ul li a {
+        font-size: 4rem;
+        letter-spacing: 0.3rem; }
+  .header__contain .header__parallax__main {
+    background-image: url("../images/parallax/mini/main-header-min.jpeg");
+    background-position-y: 6rem;
+    background-position-x: -80rem; }
+  .header__contain .header__parallax__home {
+    background-image: url("../images/parallax/mini/main-image-min.jpeg");
+    background-position-y: 6rem;
+    background-position-x: -40rem; }
+  .header__contain .header__intro {
+    color: #ffebcd;
+    font-size: 3rem;
+    font-family: "death_starregular", sans-serif;
+    text-align: center;
+    padding: 6rem;
+    line-height: 1.6;
+    letter-spacing: 1rem; }
+  .home__form__age {
+    font-size: 1.5rem; }
+  .modal-header .modal__icon {
+    position: absolute;
+    right: 0rem;
+    top: 0rem; }
+  .modal-header .pointer {
+    cursor: pointer; }
+  .modal-header .close-modal {
+    width: 2rem;
+    height: 2rem; } }
+
+@media screen and (max-width: 576px) {
+  .container {
+    padding: 0; }
+  header nav {
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: #151515;
+    background-image: repeating-linear-gradient(#1b1b1b, black);
+    transition: top 0.5s; }
+  #menu__m:target {
+    display: block;
+    top: 0; }
+  .header__nav__icon {
+    display: block;
+    margin: 0;
+    width: 5rem;
+    height: 5rem; }
+  .close {
+    position: absolute;
+    right: 4rem;
+    top: 4rem;
+    width: 4rem;
+    height: 4rem; }
+  .header__contain {
+    margin: 0;
+    padding: 0; }
+    .header__contain .header__nav {
+      display: flex;
+      justify-content: space-evenly; }
+      .header__contain .header__nav .header__logo__mando {
+        height: 6rem;
+        width: 18rem; }
+    .header__contain ul {
+      width: 100%;
+      height: 100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .header__contain ul li {
+        margin: 2rem 0; }
+        .header__contain ul li a {
+          font-size: 2rem;
+          letter-spacing: 0.3rem; }
+    .header__contain .header__parallax__main {
+      background-image: url("../images/parallax/mini/main-header-min.jpeg");
+      background-position-y: 6rem;
+      background-position-x: -150rem; }
+    .header__contain .header__parallax__home {
+      background-image: url("../images/parallax/mini/main-image-min.jpeg");
+      background-position-y: 6rem;
+      background-position-x: -70rem; }
+    .header__contain .header__title {
+      color: #ffebcd;
+      font-size: 3rem;
+      font-family: "death_starregular", sans-serif;
+      text-align: center;
+      padding: 40rem 0;
+      line-height: 1.6;
+      letter-spacing: 1rem; }
+    .header__contain .header__intro {
+      color: #ffebcd;
+      font-size: 3rem;
+      font-family: "death_starregular", sans-serif;
+      text-align: center;
+      padding: 1rem;
+      margin: 3rem 0;
+      line-height: 5rem;
+      letter-spacing: 0.6rem; }
+  .home__form__age {
+    font-size: 1.5rem; }
+  .home__form--color {
+    font-size: 1.8rem;
+    color: #ffebcd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+  .home__carousel__arrow {
+    width: 4rem;
+    height: 4rem; }
+  .modal-header .modal__icon {
+    position: absolute;
+    right: 0rem;
+    top: 0rem; }
+  .modal-header .pointer {
+    cursor: pointer; }
+  .modal-header .close-modal {
+    width: 2rem;
+    height: 2rem; }
+  .charas__contain {
+    display: flex;
+    flex-direction: column; }
+    .charas__contain .charas__main__img {
+      width: 70%; } }
+
+.animate__animated.animate__fadeInDown {
+  --animate-duration: 5s; }
+
+.animate__zoomIn {
+  --animate-duration: 3s; }
+
+.animate__fadeIn {
+  --animate-duration: 3s; }
+
+.home__contain {
+  height: auto;
+  padding: 2rem;
+  color: #151515; }
+  .home__contain .home__form {
+    margin: 0 2rem 0 0;
+    font-size: 1.2rem; }
+    .home__contain .home__form .home__form--color {
+      font-size: 1.4rem;
+      margin: 1.5rem 0;
+      color: #ffebcd; }
+    .home__contain .home__form .home__form__age {
+      color: orange; }
+    .home__contain .home__form a.form__terminos {
+      text-decoration: underline;
+      color: #ffebcd; }
+    .home__contain .home__form input[type="radio"] {
+      margin: 1rem; }
+    .home__contain .home__form .home__form__button {
+      justify-content: flex-end; }
+  .home__contain .home__destacados {
+    margin-bottom: 4rem; }
+    .home__contain .home__destacados .home__carousel {
+      color: #ffebcd; }
+      .home__contain .home__destacados .home__carousel .home__mini__sub {
+        margin-top: 2rem;
+        font-size: 1.2rem; }
+      .home__contain .home__destacados .home__carousel .home__carousel__img:hover {
+        border: 0.5rem solid #ffebcd; }
+      .home__contain .home__destacados .home__carousel .home__carousel__arrow:hover {
+        border: none; }
+
+.creators__contain {
+  padding: 2rem; }
+  .creators__contain .container {
+    margin-top: 8rem; }
+  .creators__contain .subtitle {
+    margin: 0 0 3rem 0; }
+    .creators__contain .subtitle--margin {
+      margin-top: 8rem; }
+  .creators__contain .destacado {
+    color: #f5f5f5;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 4rem; }
+    .creators__contain .destacado--color {
+      color: lightseagreen;
+      size: 1.4rem;
+      padding-left: 3rem; }
+  .creators__contain .creators__img {
+    width: 100%;
+    border-radius: 1rem; }
+  .creators__contain p {
+    margin: 3rem 2rem; }
+  .creators__contain .accordion .accordion-header {
+    margin-bottom: 3%; }
+  .creators__contain .accordion .creators__button {
+    color: lightseagreen;
+    font-size: 5rem;
+    padding: 3rem 0; }
+    .creators__contain .accordion .creators__button::after {
+      background-image: none; }
+
+.charas__contain {
+  padding: 2rem; }
+  .charas__contain .charas__main__img {
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+    margin-bottom: 8rem; }
+    .charas__contain .charas__main__img .charas__main__desc .charas__main__title {
+      margin-top: 5rem;
+      color: #129c12;
+      font-size: 5rem;
+      font-family: "death_starregular", sans-serif;
+      letter-spacing: 0.5rem; }
+    .charas__contain .charas__main__img .charas__main__desc .charas__main__subtitle {
+      font-size: 2.5rem;
+      font-style: italic;
+      font-weight: 900; }
+  .charas__contain .subtitles {
+    text-align: center; }
+  .charas__contain .charas__gallery__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .charas__contain .charas__gallery__row .charas__gallery__col {
+      padding: 0.5rem; }
+      .charas__contain .charas__gallery__row .charas__gallery__col img {
+        width: 40rem;
+        height: 22rem;
+        margin-top: 1rem;
+        filter: grayscale(80); }
+        .charas__contain .charas__gallery__row .charas__gallery__col img:hover {
+          filter: none; }
+
+.episodes__contain .episodes__video {
+  margin-top: 5rem;
+  margin-bottom: 5rem; }
+  .episodes__contain .episodes__video .responsive__container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; }
+    .episodes__contain .episodes__video .responsive__container .responsive__container__video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      border: none; }
+  .episodes__contain .episodes__video .episodes__video__explain {
+    color: orange;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    text-align: center; }
+  .episodes__contain .episodes__video p {
+    margin-left: 2rem;
+    margin-right: 2rem; }
+
+.episodes__contain a {
+  color: #ffebcd;
+  font-size: 2rem; }
+  .episodes__contain a:hover {
+    color: lightseagreen; }
+
+.episodes__contain .episodes__tab .nav-tabs:hover {
+  color: lightseagreen; }
+
+.episodes__contain .episodes__tab .episodes__title {
+  text-align: center;
+  padding-top: 4rem;
+  margin-bottom: 4rem;
+  font-size: 2rem; }
+  .episodes__contain .episodes__tab .episodes__title .episodes__span {
+    display: block;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 3rem; }
+
+.episodes__contain .episodes__tab .card {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
+  .episodes__contain .episodes__tab .card .episodes__card__body {
+    padding: 2rem; }
+    .episodes__contain .episodes__tab .card .episodes__card__body .episodes__card__title {
+      font-size: 2rem;
+      color: orange;
+      padding-bottom: 2rem; }
+    .episodes__contain .episodes__tab .card .episodes__card__body .episodes__card__subtitle {
+      font-size: 1.5rem;
+      font-style: italic;
+      color: #ffebcd;
+      padding-bottom: 0.5rem; }
+  .episodes__contain .episodes__tab .card p {
+    margin-left: 2rem;
+    margin-right: 2rem; }
+
+.extras__contain {
+  margin: 0; }
+  .extras__contain .extras__card {
+    background-color: #151515;
+    border-radius: 1rem; }
+  .extras__contain .extras__card__img {
+    width: 100%;
+    padding: 0; }
+  .extras__contain .extras__card__body {
+    padding: 2rem; }
+  .extras__contain .extras__card__btn {
+    justify-content: flex-end; }
+
+.extras__pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 5rem; }
+
+.modal__contain .modal-header .modal__icon {
+  position: absolute;
+  right: 0%; }
+
+.modal__contain .modal-header .pointer {
+  cursor: pointer; }
+
+.modal__contain .modal-header .close-modal {
+  display: block;
+  margin: 3rem;
+  width: 2rem;
+  height: 2rem; }

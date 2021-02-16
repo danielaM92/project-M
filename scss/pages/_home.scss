@@ -1,0 +1,68 @@
+
+.home__contain {
+    height: auto;
+    padding: 2rem;
+    color: $color-third;
+
+    //FORM
+    .home__form {
+        margin: 0 2rem 0 0;
+        font-size: 1.2rem;
+    
+        .home__form--color {
+            font-size: 1.4rem;
+            margin: 1.5rem 0;
+            color: $color-main;
+        }
+
+        .home__form__age {
+            color: $color-second;
+        }
+
+        a.form__terminos {
+            text-decoration: underline;
+            color: $color-main;
+        }
+
+    input[type="radio"] {
+	margin: $size-main;
+    }
+
+    .home__form__button {
+        justify-content: flex-end;
+        @extend %button-gen,
+    }
+    .form__button__style {
+        @extend %button-style,
+        }
+    }
+
+    //MORE STAR WARS
+    .home__destacados {
+        margin-bottom: 4rem;
+
+        @extend %paragraph;
+        
+        .home__carousel {
+            color: $color-main;
+
+            .home__mini__sub {
+                margin-top: 2rem;
+                font-size: 1.2rem;
+            }
+
+            .home__carousel__img {
+                @extend %bw-tocolor-effect;
+                &:hover {
+                    border: 0.5rem solid $color-main;
+                }
+            }
+
+            .home__carousel__arrow {
+                &:hover {
+                    border: none;
+                }
+            }
+        }
+    }
+}
