@@ -159,11 +159,11 @@ header .header__nav {
   letter-spacing: 1rem; }
 
 .header__contain .header__parallax__main {
-  background-image: url("../images/parallax/main-header.jpeg"); }
+  background-image: url("../images/parallax/main-header.jpg"); }
 
 .header__contain .header__parallax__home {
   min-height: 50rem;
-  background-image: url("../images/parallax/main-image.jpeg"); }
+  background-image: url("../images/parallax/main-image.jpg"); }
 
 .header__contain .header__parallax__creators {
   background-image: url("../images/parallax/sw-creators.jpg"); }
