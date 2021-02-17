@@ -20,8 +20,8 @@
     }
     .header__contain {
         .header__parallax__main{
-            background-image: url("../images/parallax/main-header.jpeg");
-            background-position-x: -105rem;
+            background-image: url("../images/parallax/main-header.jpg");
+            background-position-x: -5rem;
         }
     }
 }
@@ -138,7 +138,7 @@
         .header__parallax__main{
             background-image: url("../images/parallax/mini/main-header-min.jpeg");
             background-position-y: 6rem;
-            background-position-x: -115rem;
+            background-position-x: -25rem;
         }
 
         .header__intro {
@@ -218,7 +218,7 @@
         .header__parallax__main{
             background-image: url("../images/parallax/mini/main-header-min.jpeg");
             background-position-y: 6rem;
-            background-position-x: -80rem;
+            background-position-x: -70rem;
         }
 
         .header__parallax__home {
@@ -336,13 +336,13 @@
         .header__parallax__main{
             background-image: url("../images/parallax/mini/main-header-min.jpeg");
             background-position-y: 6rem;
-            background-position-x: -150rem;
+            background-position-x: -80rem;
         }
 
         .header__parallax__home {
             background-image: url("../images/parallax/mini/main-image-min.jpeg");
             background-position-y: 6rem;
-            background-position-x: -70rem;
+            background-position-x: -30rem;
         }
 
         .header__title{
@@ -361,7 +361,7 @@
             font-family: $font-second;
             text-align: center;
             padding: $size-main;
-            margin: 3rem 0;
+            margin: 3rem 0.4rem;
             line-height: 5rem;
             letter-spacing: 0.6rem;
         }
