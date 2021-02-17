@@ -88,13 +88,13 @@ header .header__nav {
     }
 
     .header__parallax__main{
-        background-image: url("../images/parallax/main-header.jpg");
+        background-image: url("../images/parallax/main-header.jpeg");
         @extend %parallax-main,
     }
 
     .header__parallax__home {
         min-height: 50rem;
-        background-image: url("../images/parallax/main-image.jpg");
+        background-image: url("../images/parallax/main-image.jpeg");
         @extend %parallax-main,
     }
 
