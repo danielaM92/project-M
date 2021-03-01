@@ -1,4 +1,3 @@
-
 //GENERAL
 
 body {
@@ -43,7 +42,7 @@ header .header__nav {
         justify-content: space-evenly;
     }
 
-    .header__logo__mando{
+    .header__logo__mando {
         height: 7.5rem;
         width: 24rem;
         // margin-left: 30rem;
@@ -51,34 +50,37 @@ header .header__nav {
 
     ul {
         display: flex;
+
         // margin-right: 30rem;
-		li {
-			margin-left: 3rem;
-			padding-top: 2rem;
-			a {
-				color: $color-main;
-				font-size: 2rem;
-				font-family: $font-second;
-				letter-spacing: 0.3rem;
-			}
-		}
+        li {
+            margin-left: 3rem;
+            padding-top: 2rem;
+
+            a {
+                color: $color-main;
+                font-size: 2rem;
+                font-family: $font-second;
+                letter-spacing: 0.3rem;
+            }
+        }
     }
-    
+
     .header__menu__link {
-	transition: 0.3s ease;
-	text-decoration: none;
-	padding: 2rem 0;
-	margin: 0 2rem;
-	&:hover {
-		border-top: 2px solid $emphasis;
-		border-bottom: 2px solid $emphasis;
-		padding: 0.8rem 0;
-		color: $emphasis;
-	}
+        transition: 0.3s ease;
+        text-decoration: none;
+        padding: 2rem 0;
+        margin: 0 2rem;
+
+        &:hover {
+            border-top: 2px solid $emphasis;
+            border-bottom: 2px solid $emphasis;
+            padding: 0.8rem 0;
+            color: $emphasis;
+        }
     }
 
     .header__intro {
-        color:$color-main;
+        color: $color-main;
         font-size: 4rem;
         font-family: $font-second;
         text-align: center;
@@ -87,7 +89,7 @@ header .header__nav {
         letter-spacing: $size-main;
     }
 
-    .header__parallax__main{
+    .header__parallax__main {
         background-image: url("../images/parallax/main-header.jpg");
         @extend %parallax-main,
     }
@@ -107,17 +109,19 @@ header .header__nav {
         background-image: url("../images/parallax/sw-characters.jpg");
         @extend %parallax-title,
     }
+
     .header__parallax__episodes {
         background-image: url("../images/parallax/sw-episodes.jpg");
         @extend %parallax-title,
     }
+
     .header__parallax__extras {
         background-image: url("../images/parallax/sw-extras.jpg");
         @extend %parallax-title,
     }
 
-    .header__title{
-        color:$color-main;
+    .header__title {
+        color: $color-main;
         font-size: 4rem;
         font-family: $font-second;
         text-align: center;
@@ -130,7 +134,7 @@ header .header__nav {
 
 .header__nav__icon {
     display: none;
-    }
+}
 
 .subtitle {
     color: $subtitle-color;
@@ -148,19 +152,19 @@ header .header__nav {
     &.subtitle--placing {
         text-align: center;
     }
-    }
+}
 
 
 //FOOTER
 
 .footer__contain {
     margin-left: 0p;
-	margin-right: 0;
-	margin-top: 8rem;
-	padding: 2rem;
-	background-color: $color-third;
-	background-image: $gradient;
-	height: auto;
+    margin-right: 0;
+    margin-top: 8rem;
+    padding: 2rem;
+    background-color: $color-third;
+    background-image: $gradient;
+    height: auto;
     text-align: center;
     z-index: 40;
 
@@ -177,4 +181,3 @@ header .header__nav {
         font-weight: 300;
     }
 }
-

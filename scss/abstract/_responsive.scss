@@ -1,4 +1,3 @@
-
 // Media querie DESKTOP 1444px
 
 @media screen and (max-width: 1444px) {
@@ -12,46 +11,14 @@
         display: flex;
         justify-content: center;
         padding-top: $size-main;
-        padding-left: 10rem; 
-        padding-right: 10rem; 
+        padding-left: 10rem;
+        padding-right: 10rem;
         background-color: $color-third;
         background-image: $gradient;
         z-index: 50;
     }
-    .header__contain {
-        .header__parallax__main{
-            background-image: url("../images/parallax/main-header.jpg");
-            background-position-x: -5rem;
-        }
-    }
+
 }
-
-// // MEDIA QUERIE LATOP MIN 1240px 
-
-// @media screen and (max-width: 1240px) {
-//     header ul li a {
-//         color: $color-main;
-//         font-size: 1.5rem;
-//         font-family: $font-second;
-//         letter-spacing: 0.3rem;
-//     }
-//     .header__nav {
-//         position: fixed;
-//         left: 0px;
-//         height: 15rem;
-//         font-family: $font-second;
-//         letter-spacing: $size-main;
-//         width: 100%;
-//         display: flex;
-//         justify-content: center;
-//         padding-top: $size-main;
-//         padding-left: 5rem; 
-//         padding-right: 5rem; 
-//         background-color: $color-third;
-//         background-image: $gradient;
-//         z-index: 50;
-//     }
-// }
 
 // MEDIA QUERIE LATOP MIN 1200px
 
@@ -62,6 +29,7 @@
         font-family: $font-second;
         letter-spacing: 0.3rem;
     }
+
     .header__nav {
         position: fixed;
         left: 0px;
@@ -72,8 +40,8 @@
         display: flex;
         justify-content: center;
         padding-top: $size-main;
-        padding-left: 2rem; 
-        padding-right: 2rem; 
+        padding-left: 2rem;
+        padding-right: 2rem;
         background-color: $color-third;
         background-image: $gradient;
         z-index: 50;
@@ -102,11 +70,11 @@
         display: block;
         top: 0;
     }
-    
+
     .header__nav__icon {
         display: block;
         margin: 0;
-        }
+    }
 
     .close {
         position: absolute;
@@ -129,13 +97,15 @@
 
             li {
                 margin: 2rem 0;
+
                 a {
                     font-size: 4rem;
                     letter-spacing: 0.3rem;
                 }
             }
         }
-        .header__parallax__main{
+
+        .header__parallax__main {
             background-image: url("../images/parallax/mini/main-header-min.jpg");
             background-position-y: 6rem;
             background-position-x: -25rem;
@@ -148,7 +118,7 @@
         }
 
         .header__intro {
-            color:$color-main;
+            color: $color-main;
             font-size: 3rem;
             font-family: $font-second;
             text-align: center;
@@ -160,9 +130,9 @@
 
     //FORM
 
-.home__form__age {
-    font-size: 1.5rem;
-}
+    .home__form__age {
+        font-size: 1.5rem;
+    }
 }
 
 // MEDIA QUERIE TABLET 768px
@@ -188,11 +158,11 @@
         display: block;
         top: 0;
     }
-    
+
     .header__nav__icon {
         display: block;
         margin: 0;
-        }
+    }
 
     .close {
         position: absolute;
@@ -215,16 +185,18 @@
 
             li {
                 margin: 2rem 0;
+
                 a {
                     font-size: 4rem;
                     letter-spacing: 0.3rem;
                 }
             }
         }
-        .header__parallax__main{
+
+        .header__parallax__main {
             background-image: url("../images/parallax/mini/main-header-768x.jpg");
             background-position-y: 6rem;
-            background-position-x: -50rem;
+            background-position-x: -130rem;
         }
 
         .header__parallax__home {
@@ -234,21 +206,23 @@
         }
 
         .header__parallax__creators {
-            background-image: url("../images/parallax/sw-creators-768x.jpg");
+            background-image: url("../images/parallax/mini/sw-creators-768x.jpg");
         }
-    
+
         .header__parallax__characters {
-            background-image: url("../images/parallax/sw-characters-768x.jpg");
+            background-image: url("../images/parallax/mini/sw-characters-768x.jpg");
         }
+
         .header__parallax__episodes {
-            background-image: url("../images/parallax/sw-episodes-768x.jpg");
+            background-image: url("../images/parallax/mini/sw-episodes-768x.jpg");
         }
+
         .header__parallax__extras {
-            background-image: url("../images/parallax/sw-extras-768x.jpg");
+            background-image: url("../images/parallax/mini/sw-extras-768x.jpg");
         }
 
         .header__intro {
-            color:$color-main;
+            color: $color-main;
             font-size: 3rem;
             font-family: $font-second;
             text-align: center;
@@ -260,29 +234,46 @@
 
     //FORM
 
-.home__form__age {
-    font-size: 1.5rem;
-}
+    .home__form__age {
+        font-size: 1.5rem;
+    }
 
     //MODAL - EXTRAS
     .modal-header {
         .modal__icon {
-        position: absolute;
-        right: 0rem;
-        top: 0rem;
+            position: absolute;
+            right: 0rem;
+            top: 0rem;
         }
+
         .pointer {
-        cursor: pointer;
+            cursor: pointer;
         }
-    .close-modal {
-        width: 2rem;
-        height: 2rem;  
+
+        .close-modal {
+            width: 2rem;
+            height: 2rem;
+        }
+    }
+
+    //ACORDEON CREATOR
+
+    .creators__contain {
+        padding: 2rem;    
+    
+        .accordion {
+    
+            .creators__button {
+                color: $color-details;
+                font-size: 3rem !important;
+                padding: 1rem 2rem !important;
+            }
         }
     }
 }
 
 
-    //MEDIA QUERIE CELULAR 576px
+//MEDIA QUERIE CELULAR 576px
 @media screen and (max-width: 576px) {
 
     //HEADER
@@ -308,13 +299,13 @@
         display: block;
         top: 0;
     }
-    
+
     .header__nav__icon {
         display: block;
         margin: 0;
         width: 5rem;
         height: 5rem;
-        }
+    }
 
     .close {
         position: absolute;
@@ -327,11 +318,12 @@
     .header__contain {
         margin: 0;
         padding: 0;
+
         .header__nav {
             display: flex;
             justify-content: space-evenly;
 
-            .header__logo__mando{
+            .header__logo__mando {
                 height: 6rem;
                 width: 18rem;
                 // margin-left: 30rem;
@@ -347,13 +339,15 @@
 
             li {
                 margin: 2rem 0;
+
                 a {
                     font-size: 2rem;
                     letter-spacing: 0.3rem;
                 }
             }
         }
-        .header__parallax__main{
+
+        .header__parallax__main {
             background-image: url("../images/parallax/mini/main-header-576x.jpg");
             background-position-y: 6rem;
             background-position-x: -60rem;
@@ -365,21 +359,23 @@
         }
 
         .header__parallax__creators {
-            background-image: url("../images/parallax/sw-creators-576x.jpg");
-        }
-    
-        .header__parallax__characters {
-            background-image: url("../images/parallax/sw-characters-576x.jpg");
-        }
-        .header__parallax__episodes {
-            background-image: url("../images/parallax/sw-episodes-576x.jpg");
-        }
-        .header__parallax__extras {
-            background-image: url("../images/parallax/sw-extras-576x.jpg");
+            background-image: url("../images/parallax/mini/sw-creators-576x.jpg");
         }
 
-        .header__title{
-            color:$color-main;
+        .header__parallax__characters {
+            background-image: url("../images/parallax/mini/sw-characters-576x.jpg");
+        }
+
+        .header__parallax__episodes {
+            background-image: url("../images/parallax/mini/sw-episodes-576x.jpg");
+        }
+
+        .header__parallax__extras {
+            background-image: url("../images/parallax/mini/sw-extras-576x.jpg");
+        }
+
+        .header__title {
+            color: $color-main;
             font-size: 3rem;
             font-family: $font-second;
             text-align: center;
@@ -389,7 +385,7 @@
         }
 
         .header__intro {
-            color:$color-main;
+            color: $color-main;
             font-size: 3rem;
             font-family: $font-second;
             text-align: center;
@@ -402,16 +398,18 @@
 
     //FORM
 
-.home__form__age {
-    font-size: 1.5rem;
-}
-.home__form--color {
-font-size: 1.8rem;
-color: $color-main;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-}
+    .home__form__age {
+        font-size: 1.5rem;
+    }
+
+    .home__form--color {
+        font-size: 1.8rem;
+        color: $color-main;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
     //CAROUSEL
 
     .home__carousel__arrow {
@@ -422,16 +420,18 @@ justify-content: space-between;
     //MODAL - EXTRAS
     .modal-header {
         .modal__icon {
-        position: absolute;
-        right: 0rem;
-        top: 0rem;
+            position: absolute;
+            right: 0rem;
+            top: 0rem;
         }
+
         .pointer {
-        cursor: pointer;
+            cursor: pointer;
         }
-    .close-modal {
-        width: 2rem;
-        height: 2rem;  
+
+        .close-modal {
+            width: 2rem;
+            height: 2rem;
         }
     }
 
@@ -439,9 +439,24 @@ justify-content: space-between;
     .charas__contain {
         display: flex;
         flex-direction: column;
+
         .charas__main__img {
             width: 70%;
         }
     }
 
+    //ACORDEON CREATOR
+
+    .creators__contain {
+        padding: 2rem;    
+    
+        .accordion {
+    
+            .creators__button {
+                color: $color-details;
+                font-size: 3rem !important;
+                padding: 1rem 2rem !important;
+            }
+        }
+    }
 }

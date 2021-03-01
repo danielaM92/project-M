@@ -1,17 +1,18 @@
-
 .episodes__contain {
+
     //IFRAME
     .episodes__video {
         margin-top: 5rem;
         margin-bottom: 5rem;
+
         // IFRAME RESPONSIVE
         .responsive__container {
             position: relative;
             overflow: hidden;
             width: 100%;
             padding-top: 56.25%;
-            
-                .responsive__container__video {
+
+            .responsive__container__video {
                 position: absolute;
                 top: 0;
                 left: 0;
@@ -22,6 +23,7 @@
                 border: none;
             }
         }
+
         .episodes__video__explain {
             color: $color-second;
             margin-top: 3rem;
@@ -29,32 +31,35 @@
             font-size: 3rem;
             text-align: center;
         }
+
         p {
-                margin-left: 2rem;
-                margin-right: 2rem;
-                @extend %paragraph;
-            }
+            margin-left: 2rem;
+            margin-right: 2rem;
+            @extend %paragraph;
+        }
     }
 
     //TABS
     a {
-            color: $color-main;
-            font-size: 2rem;
-            &:hover {
-                color: $color-details;
-            }
+        color: $color-main;
+        font-size: 2rem;
+
+        &:hover {
+            color: $color-details;
         }
-    
+    }
+
     .episodes__tab {
         .nav-tabs:hover {
             color: $color-details;
         }
-        
+
         .episodes__title {
             text-align: center;
             padding-top: 4rem;
             margin-bottom: 4rem;
             font-size: 2rem;
+
             .episodes__span {
                 display: block;
                 font-weight: normal;
@@ -62,6 +67,7 @@
                 font-size: 3rem;
             }
         }
+
         .card {
             box-shadow: $box-shadows;
             @extend %card-gen;
@@ -86,7 +92,7 @@
                     padding-bottom: $size-main/2;
                 }
             }
-        
+
             p {
                 margin-left: 2rem;
                 margin-right: 2rem;
@@ -95,6 +101,3 @@
         }
     }
 }
-
-
-

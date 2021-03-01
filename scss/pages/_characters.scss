@@ -1,14 +1,15 @@
-
 .charas__contain {
     padding: 2rem;
+
     //MAIN EXPLAINATION
     .charas__main__img {
         display: flex;
         justify-content: center;
         margin-top: 7rem;
         margin-bottom: 8rem;
+
         .charas__main__desc {
-            
+
             .charas__main__title {
                 margin-top: 5rem;
                 color: rgb(18, 156, 18);
@@ -17,37 +18,43 @@
                 letter-spacing: 0.5rem;
                 @extend %titles;
             }
+
             .charas__main__subtitle {
                 font-size: 2.5rem;
                 font-style: italic;
                 font-weight: 900;
             }
+
             p {
                 @extend %paragraph;
             }
         }
     }
-    
+
 
     //GALLERY CHARACTERS
     .subtitles {
         text-align: center;
     }
+
     .gallery__divider {
         @extend %divider,
     }
+
     .charas__gallery__row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
 
         .charas__gallery__col {
-        padding: 0.5rem;
+            padding: 0.5rem;
+
             img {
                 width: 40rem;
                 height: 22rem;
                 margin-top: $size-main;
-            filter:grayscale(80);
+                filter: grayscale(80);
+
                 &:hover {
                     filter: none;
                 }
@@ -55,4 +62,3 @@
         }
     }
 }
-
