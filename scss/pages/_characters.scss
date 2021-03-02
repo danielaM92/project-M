@@ -1,6 +1,5 @@
 .charas__contain {
     padding: 2rem;
-
     //MAIN EXPLAINATION
 
     .charas__main__img {
@@ -10,7 +9,6 @@
         margin-bottom: 3rem;
 
         .charas__main__desc {
-
             .charas__main__title {
                 margin-top: 5rem;
                 color: rgb(18, 156, 18);
@@ -19,13 +17,11 @@
                 letter-spacing: 0.5rem;
                 @extend %titles;
             }
-
             .charas__main__subtitle {
                 font-size: 2.5rem;
                 font-style: italic;
                 font-weight: 900;
             }
-
             p {
                 @extend %paragraph;
             }
