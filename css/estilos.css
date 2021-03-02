@@ -606,12 +606,9 @@ header .header__nav {
 
 .charas__contain {
   padding: 2rem; }
-  .charas__contain .charas__col__img {
-    display: flex;
-    justify-content: center; }
   .charas__contain .charas__main__img {
-    max-width: 100%;
-    height: auto;
+    display: flex;
+    justify-content: center;
     margin-top: 7rem;
     margin-bottom: 3rem; }
     .charas__contain .charas__main__img .charas__main__desc .charas__main__title {
