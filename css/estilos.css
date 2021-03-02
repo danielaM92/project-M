@@ -622,20 +622,20 @@ header .header__nav {
       font-weight: 900; }
   .charas__contain .carousel-inner {
     margin: 3rem 0; }
-  .charas__contain .row__carousel__characters {
-    display: flex;
-    justify-content: center; }
-  .charas__contain .carousel__img {
-    width: 15rem;
-    height: 15rem;
-    border-radius: 50%;
-    filter: grayscale(80); }
-    .charas__contain .carousel__img:hover {
-      filter: none; }
-  .charas__contain .home__carousel__arrow--characters {
-    height: 4rem;
-    width: auto;
-    margin: 15rem; }
+    .charas__contain .carousel-inner .row__carousel__characters {
+      display: flex;
+      justify-content: center; }
+      .charas__contain .carousel-inner .row__carousel__characters .carousel__img {
+        width: 15rem;
+        height: 15rem;
+        border-radius: 50%;
+        filter: grayscale(80); }
+        .charas__contain .carousel-inner .row__carousel__characters .carousel__img:hover {
+          filter: none; }
+    .charas__contain .carousel-inner .home__carousel__arrow--characters {
+      height: 4rem;
+      width: auto;
+      margin: 15rem; }
   .charas__contain .subtitles {
     text-align: center; }
   .charas__contain .charas__gallery__row {
