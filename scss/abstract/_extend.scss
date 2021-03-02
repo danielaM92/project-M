@@ -2,7 +2,7 @@
 
     %parallax-main {
         min-height: 100vh;
-        min-width: 100vh;
+        max-width: 100%;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -12,7 +12,7 @@
 
     %parallax-title {
         min-height: 15rem;
-        min-width: 100vh;
+        max-width: 100%;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;

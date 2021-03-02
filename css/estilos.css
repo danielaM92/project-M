@@ -1,6 +1,6 @@
 .header__contain .header__parallax__main, .header__contain .header__parallax__home {
   min-height: 100vh;
-  min-width: 100vh;
+  max-width: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -9,7 +9,7 @@
 
 .header__contain .header__parallax__creators, .header__contain .header__parallax__characters, .header__contain .header__parallax__episodes, .header__contain .header__parallax__extras {
   min-height: 15rem;
-  min-width: 100vh;
+  max-width: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
