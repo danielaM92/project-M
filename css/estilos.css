@@ -610,8 +610,6 @@ header .header__nav {
     display: flex;
     justify-content: center; }
   .charas__contain .charas__main__img {
-    display: flex;
-    justify-content: center;
     max-width: 100%;
     height: auto;
     margin-top: 7rem;
