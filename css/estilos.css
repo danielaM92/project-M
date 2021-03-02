@@ -15,12 +15,12 @@
   background-repeat: no-repeat;
   background-size: cover; }
 
-.charas__contain .charas__main__img .charas__main__desc .charas__main__title, .extras__contain .extras__card__title {
+.charas__contain .charas__main__desc .charas__main__title, .extras__contain .extras__card__title {
   font-size: 2rem;
   color: orange;
   padding-bottom: 1rem; }
 
-.home__contain .home__destacados, .creators__contain p, .charas__contain .charas__main__img .charas__main__desc p, .episodes__contain .episodes__video p, .episodes__contain .episodes__tab .card p, .extras__contain .extras__card {
+.home__contain .home__destacados, .creators__contain p, .charas__contain .charas__main__desc p, .episodes__contain .episodes__video p, .episodes__contain .episodes__tab .card p, .extras__contain .extras__card {
   font-size: 1.5rem;
   color: #ffebcd; }
 
@@ -606,18 +606,23 @@ header .header__nav {
 
 .charas__contain {
   padding: 2rem; }
-  .charas__contain .charas__main__img {
+  .charas__contain .charas__col__img {
     display: flex;
-    justify-content: center;
+    justify-content: center; }
+  .charas__contain .charas__main__img {
+    max-width: 100%;
+    height: auto;
     margin-top: 7rem;
-    margin-bottom: 8rem; }
-    .charas__contain .charas__main__img .charas__main__desc .charas__main__title {
+    margin-bottom: 3rem; }
+  .charas__contain .charas__main__desc {
+    padding: 0 2rem; }
+    .charas__contain .charas__main__desc .charas__main__title {
       margin-top: 5rem;
       color: #129c12;
       font-size: 5rem;
       font-family: "death_starregular", sans-serif;
       letter-spacing: 0.5rem; }
-    .charas__contain .charas__main__img .charas__main__desc .charas__main__subtitle {
+    .charas__contain .charas__main__desc .charas__main__subtitle {
       font-size: 2.5rem;
       font-style: italic;
       font-weight: 900; }
