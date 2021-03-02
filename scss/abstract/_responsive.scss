@@ -133,6 +133,19 @@
     .home__form__age {
         font-size: 1.5rem;
     }
+
+        //CHARACTERS CAROUSEL
+
+        .carousel__img {
+            width: 10rem !important;
+            height: 10rem !important;
+            border-radius: 50%;
+            filter: grayscale(80);
+    
+            &:hover {
+                filter: none;
+            }
+        }
 }
 
 // MEDIA QUERIE TABLET 768px
@@ -255,6 +268,19 @@
             height: 2rem;
         }
     }
+
+        //CHARACTERS CAROUSEL
+
+        .carousel__img {
+            width: 8rem !important;
+            height: 8rem !important;
+            border-radius: 50%;
+            filter: grayscale(80);
+    
+            &:hover {
+                filter: none;
+            }
+        }
 
     //ACORDEON CREATOR
 
@@ -379,7 +405,7 @@
             font-size: 3rem;
             font-family: $font-second;
             text-align: center;
-            padding: 40rem 0;
+            padding: 30rem 0 20rem 0;
             line-height: 1.6;
             letter-spacing: $size-main;
         }
@@ -442,6 +468,19 @@
 
         .charas__main__img {
             width: 70%;
+        }
+    }
+
+    //CHARACTERS CAROUSEL
+
+    .carousel__img {
+        width: 8rem !important;
+        height: 8rem !important;
+        border-radius: 50%;
+        filter: grayscale(80);
+
+        &:hover {
+            filter: none;
         }
     }
 

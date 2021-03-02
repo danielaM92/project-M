@@ -1,5 +1,6 @@
 .header__contain .header__parallax__main, .header__contain .header__parallax__home {
   min-height: 100vh;
+  min-width: 100vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -8,6 +9,7 @@
 
 .header__contain .header__parallax__creators, .header__contain .header__parallax__characters, .header__contain .header__parallax__episodes, .header__contain .header__parallax__extras {
   min-height: 15rem;
+  min-width: 100vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -314,7 +316,14 @@ header .header__nav {
     line-height: 1.6;
     letter-spacing: 1rem; }
   .home__form__age {
-    font-size: 1.5rem; } }
+    font-size: 1.5rem; }
+  .carousel__img {
+    width: 10rem !important;
+    height: 10rem !important;
+    border-radius: 50%;
+    filter: grayscale(80); }
+    .carousel__img:hover {
+      filter: none; } }
 
 @media screen and (max-width: 768px) {
   header nav {
@@ -387,6 +396,13 @@ header .header__nav {
   .modal-header .close-modal {
     width: 2rem;
     height: 2rem; }
+  .carousel__img {
+    width: 8rem !important;
+    height: 8rem !important;
+    border-radius: 50%;
+    filter: grayscale(80); }
+    .carousel__img:hover {
+      filter: none; }
   .creators__contain {
     padding: 2rem; }
     .creators__contain .accordion .creators__button {
@@ -462,7 +478,7 @@ header .header__nav {
       font-size: 3rem;
       font-family: "death_starregular", sans-serif;
       text-align: center;
-      padding: 40rem 0;
+      padding: 30rem 0 20rem 0;
       line-height: 1.6;
       letter-spacing: 1rem; }
     .header__contain .header__intro {
@@ -499,6 +515,13 @@ header .header__nav {
     flex-direction: column; }
     .charas__contain .charas__main__img {
       width: 70%; }
+  .carousel__img {
+    width: 8rem !important;
+    height: 8rem !important;
+    border-radius: 50%;
+    filter: grayscale(80); }
+    .carousel__img:hover {
+      filter: none; }
   .creators__contain {
     padding: 2rem; }
     .creators__contain .accordion .creators__button {
@@ -597,6 +620,22 @@ header .header__nav {
       font-size: 2.5rem;
       font-style: italic;
       font-weight: 900; }
+  .charas__contain .carousel-inner {
+    margin: 3rem 0; }
+  .charas__contain .row__carousel__characters {
+    display: flex;
+    justify-content: center; }
+  .charas__contain .carousel__img {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    filter: grayscale(80); }
+    .charas__contain .carousel__img:hover {
+      filter: none; }
+  .charas__contain .home__carousel__arrow--characters {
+    height: 4rem;
+    width: auto;
+    margin: 15rem; }
   .charas__contain .subtitles {
     text-align: center; }
   .charas__contain .charas__gallery__row {

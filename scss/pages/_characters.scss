@@ -31,6 +31,33 @@
         }
     }
 
+    //CAROUSEL
+    .carousel-inner {
+        margin: 3rem 0;
+    }
+
+    .row__carousel__characters {
+        display: flex;
+        justify-content: center;
+    }
+
+    .carousel__img {
+        width: 15rem;
+        height: 15rem;
+        border-radius: 50%;
+        filter: grayscale(80);
+
+        &:hover {
+            filter: none;
+        }
+    }
+
+    .home__carousel__arrow--characters {
+        height: 4rem;
+        width: auto;
+        margin: 15rem;
+    }
+
 
     //GALLERY CHARACTERS
     .subtitles {
