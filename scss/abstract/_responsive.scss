@@ -112,7 +112,7 @@
         }
 
         .header__parallax__home {
-            background-image: url("../images/parallax/mini/main-mando-1199x.jpg") !important;
+            background-image: url("../images/parallax/mini/main-mando-1199x.jpg");
             background-position-y: 6rem;
             background-position-x: -20rem;
         }
@@ -210,28 +210,34 @@
             background-image: url("../images/parallax/mini/main-header-768x.jpg") !important;
             background-position-y: 6rem;
             background-position-x: -35rem;
+            background-attachment: scroll;
         }
 
         .header__parallax__home {
             background-image: url("../images/parallax/mini/main-mando-768x.jpg") !important;
             background-position-y: 6rem;
             background-position-x: -30rem;
+            background-attachment: scroll;
         }
 
         .header__parallax__creators {
             background-image: url("../images/parallax/mini/sw-creators-768x.jpg") !important;
+            background-attachment: scroll;
         }
 
         .header__parallax__characters {
             background-image: url("../images/parallax/mini/sw-characters-768x.jpg") !important;
+            background-attachment: scroll;
         }
 
         .header__parallax__episodes {
             background-image: url("../images/parallax/mini/sw-episodes-768x.jpg") !important;
+            background-attachment: scroll;
         }
 
         .header__parallax__extras {
             background-image: url("../images/parallax/mini/sw-extras-768x.jpg") !important;
+            background-attachment: scroll;
         }
 
         .header__intro {
@@ -377,28 +383,34 @@
             background-image: url("../images/parallax/mini/main-header-576x.jpg") !important;
             background-position-y: 6rem;
             background-position-x: -6rem;
+            background-attachment: scroll;
         }
 
         .header__parallax__home {
             background-image: url("../images/parallax/mini/main-mando-576x.jpg") !important;
             background-position-y: 6rem;
             background-position-x: -6rem;
+            background-attachment: scroll;
         }
 
         .header__parallax__creators {
             background-image: url("../images/parallax/mini/sw-creators-576x.jpg") !important;
+            background-attachment: scroll;
         }
 
         .header__parallax__characters {
             background-image: url("../images/parallax/mini/sw-characters-576x.jpg") !important;
+            background-attachment: scroll;
         }
 
         .header__parallax__episodes {
             background-image: url("../images/parallax/mini/sw-episodes-576x.jpg") !important;
+            background-attachment: scroll;
         }
 
         .header__parallax__extras {
             background-image: url("../images/parallax/mini/sw-extras-576x.jpg") !important;
+            background-attachment: scroll;
         }
 
         .header__title {
