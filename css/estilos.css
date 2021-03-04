@@ -422,7 +422,7 @@ header .header__nav {
 
 @media screen and (max-width: 576px) {
   .container {
-    padding: 0; }
+    padding: 2rem; }
   header nav {
     position: fixed;
     right: 0;
@@ -536,9 +536,10 @@ header .header__nav {
     height: 2rem; }
   .charas__contain {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    padding: 0; }
     .charas__contain .charas__main__img {
-      width: 70%; }
+      width: 100%; }
   .carousel__img {
     width: 8rem !important;
     height: 8rem !important;

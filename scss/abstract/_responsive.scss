@@ -317,7 +317,7 @@
     //HEADER
 
     .container {
-        padding: 0;
+        padding: 2rem;
     }
 
     header nav {
@@ -494,9 +494,10 @@
     .charas__contain {
         display: flex;
         flex-direction: column;
+        padding: 0;
 
         .charas__main__img {
-            width: 70%;
+            width: 100%;
         }
     }
 
