@@ -75,10 +75,10 @@
 
             img {
                 margin-top: $size-main;
-                filter: grayscale(80);
+                filter: none;
 
                 &:hover {
-                    filter: none;
+                    filter: grayscale(80);
                 }
             }
         }

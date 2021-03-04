@@ -505,9 +505,10 @@
     .charas__contain {
         display: flex;
         flex-direction: column;
-        padding: 0!important;
+        padding: 0 !important;
 
         .charas__main__img {
+            margin-top: 2rem;
             width: 100%;
         }
     }
@@ -559,15 +560,19 @@
 
     //TITLE CREATOR
 
-    .container {
-        margin-top: 0;
-    }
+    .creators__contain {
+        padding: 2rem;
 
-    .subtitle {
-        margin: 0 0 2rem 0;
-
-        &--margin {
+        .container {
             margin-top: 3rem;
+        }
+
+        .subtitle {
+            margin: 0 0 2rem 0;
+
+            &--margin {
+                margin-top: 3rem;
+            }
         }
     }
 
@@ -584,5 +589,11 @@
                 padding: 1rem 2rem !important;
             }
         }
+    }
+
+    //IFRAME
+    .episodes__video {
+        margin-top: 2rem;
+        margin-bottom: 5rem;
     }
 }
