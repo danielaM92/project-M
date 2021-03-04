@@ -412,7 +412,7 @@
 
         .header__parallax__characters {
             background-image: url("../images/parallax/mini/sw-characters-576x.jpg");
-            background-position-x: 6rem;
+            background-position-y: 6rem;
             background-attachment: scroll;
         }
 
@@ -534,10 +534,10 @@
             height: 2rem !important;
             width: auto;
         }
+    }
 
-        .carousel-control-next.carousel-control-prev {
-            width: 2% !important;
-        }
+    .carousel-control-next.carousel-control-prev {
+        width: 2% !important;
     }
 
     //GALLERY IMAGES

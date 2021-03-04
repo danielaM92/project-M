@@ -490,7 +490,7 @@ header .header__nav {
       background-attachment: scroll; }
     .header__contain .header__parallax__characters {
       background-image: url("../images/parallax/mini/sw-characters-576x.jpg");
-      background-position-x: 6rem;
+      background-position-y: 6rem;
       background-attachment: scroll; }
     .header__contain .header__parallax__episodes {
       background-image: url("../images/parallax/mini/sw-episodes-576x.jpg");
@@ -563,8 +563,8 @@ header .header__nav {
     .carousel-inner .home__carousel__arrow--characters {
       height: 2rem !important;
       width: auto; }
-    .carousel-inner .carousel-control-next.carousel-control-prev {
-      width: 2% !important; }
+  .carousel-control-next.carousel-control-prev {
+    width: 2% !important; }
   .charas__gallery__row {
     display: flex;
     flex-wrap: wrap;
