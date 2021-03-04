@@ -470,7 +470,7 @@ header .header__nav {
           letter-spacing: 0.3rem; }
     .header__contain .header__parallax__main {
       background-image: url("../images/parallax/mini/main-header-576x.jpg") !important;
-      min-height: 80rem;
+      min-height: 50rem;
       background-position-y: 6rem;
       background-position-x: -6rem;
       background-attachment: scroll; }
