@@ -134,18 +134,18 @@
         font-size: 1.5rem;
     }
 
-        //CHARACTERS CAROUSEL
+    //CHARACTERS CAROUSEL
 
-        .carousel__img {
-            width: 10rem !important;
-            height: 10rem !important;
-            border-radius: 50%;
-            filter: grayscale(80);
-    
-            &:hover {
-                filter: none;
-            }
+    .carousel__img {
+        width: 10rem !important;
+        height: 10rem !important;
+        border-radius: 50%;
+        filter: grayscale(80);
+
+        &:hover {
+            filter: none;
         }
+    }
 }
 
 // MEDIA QUERIE TABLET 768px
@@ -281,26 +281,38 @@
         }
     }
 
-        //CHARACTERS CAROUSEL
+    //CHARACTERS CAROUSEL
 
-        .carousel__img {
-            width: 8rem !important;
-            height: 8rem !important;
-            border-radius: 50%;
-            filter: grayscale(80);
-    
-            &:hover {
+    .carousel__img {
+        width: 8rem !important;
+        height: 8rem !important;
+        border-radius: 50%;
+        filter: none;
+    }
+
+    //GALLERY IMAGES
+    .charas__gallery__row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .charas__gallery__col {
+            padding: 0.5rem;
+
+            img {
+                margin-top: $size-main;
                 filter: none;
             }
         }
+    }
 
     //ACORDEON CREATOR
 
     .creators__contain {
-        padding: 2rem;    
-    
+        padding: 2rem;
+
         .accordion {
-    
+
             .creators__button {
                 color: $color-details;
                 font-size: 3rem !important;
@@ -510,20 +522,33 @@
         width: 8rem !important;
         height: 8rem !important;
         border-radius: 50%;
-        filter: grayscale(80);
+        filter: none;
+    }
 
-        &:hover {
-            filter: none;
+    //GALLERY IMAGES
+
+    .charas__gallery__row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .charas__gallery__col {
+            padding: 0.5rem;
+
+            img {
+                margin-top: $size-main;
+                filter: none;
+            }
         }
     }
 
     //ACORDEON CREATOR
 
     .creators__contain {
-        padding: 2rem;    
-    
+        padding: 2rem;
+
         .accordion {
-    
+
             .creators__button {
                 color: $color-details;
                 font-size: 3rem !important;
