@@ -546,7 +546,7 @@ header .header__nav {
   .charas__contain {
     display: flex;
     flex-direction: column;
-    padding: 0; }
+    padding: 0 !important; }
     .charas__contain .charas__main__img {
       width: 100%; }
   .carousel-inner {
@@ -556,7 +556,7 @@ header .header__nav {
       display: flex !important;
       justify-content: space-evenly !important; }
       .carousel-inner .row__carousel__characters .carousel__img {
-        width: 5rem !important;
+        width: 6rem !important;
         height: auto !important;
         border-radius: 50%;
         filter: none; }
@@ -564,7 +564,7 @@ header .header__nav {
       height: 2rem !important;
       width: auto; }
   .carousel__control__width {
-    width: 2% !important; }
+    width: 1% !important; }
   .charas__gallery__row {
     display: flex;
     flex-wrap: wrap;
@@ -573,7 +573,7 @@ header .header__nav {
       padding: 0.5rem; }
       .charas__gallery__row .charas__gallery__col img {
         margin-top: 1rem;
-        filter: none; }
+        filter: none !important; }
   .container {
     margin-top: 0; }
   .subtitle {

@@ -505,7 +505,7 @@
     .charas__contain {
         display: flex;
         flex-direction: column;
-        padding: 0;
+        padding: 0!important;
 
         .charas__main__img {
             width: 100%;
@@ -523,7 +523,7 @@
             justify-content: space-evenly !important;
 
             .carousel__img {
-                width: 5rem !important;
+                width: 6rem !important;
                 height: auto !important;
                 border-radius: 50%;
                 filter: none;
@@ -537,7 +537,7 @@
     }
 
     .carousel__control__width {
-        width: 2% !important;
+        width: 1% !important;
     }
 
     //GALLERY IMAGES
@@ -552,7 +552,7 @@
 
             img {
                 margin-top: $size-main;
-                filter: none;
+                filter: none !important;
             }
         }
     }
