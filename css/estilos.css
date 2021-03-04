@@ -390,6 +390,14 @@ header .header__nav {
     padding: 6rem;
     line-height: 1.6;
     letter-spacing: 1rem; }
+  .header__contain .header__title {
+    color: #ffebcd;
+    font-size: 3rem;
+    font-family: "death_starregular", sans-serif;
+    text-align: center;
+    padding: 20rem 0 10rem 0;
+    line-height: 1.6;
+    letter-spacing: 1rem; }
   .home__form__age {
     font-size: 1.5rem; }
   .modal-header .modal__icon {
@@ -469,11 +477,12 @@ header .header__nav {
     .header__contain .header__parallax__main {
       background-image: url("../images/parallax/mini/main-header-576x.jpg") !important;
       min-height: 35rem;
-      background-position-y: 8rem;
+      background-position-y: 7rem;
       background-position-x: center;
       background-attachment: scroll; }
     .header__contain .header__parallax__home {
       background-image: url("../images/parallax/mini/main-mando-576x.jpg");
+      min-height: 35rem;
       background-position-x: -6rem;
       background-attachment: scroll; }
     .header__contain .header__parallax__creators {
@@ -493,7 +502,7 @@ header .header__nav {
       font-size: 3rem;
       font-family: "death_starregular", sans-serif;
       text-align: center;
-      padding: 30rem 0 20rem 0;
+      padding: 20rem 0 10rem 0;
       line-height: 1.6;
       letter-spacing: 1rem; }
     .header__contain .header__intro {
