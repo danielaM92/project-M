@@ -395,7 +395,7 @@ header .header__nav {
     font-size: 3rem;
     font-family: "death_starregular", sans-serif;
     text-align: center;
-    padding: 20rem 0 10rem 0;
+    padding: 25rem 0 15rem 0;
     line-height: 1.6;
     letter-spacing: 1rem; }
   .home__form__age {
@@ -476,13 +476,13 @@ header .header__nav {
           letter-spacing: 0.3rem; }
     .header__contain .header__parallax__main {
       background-image: url("../images/parallax/mini/main-header-576x.jpg") !important;
-      min-height: 35rem;
-      background-position-y: 7rem;
+      min-height: 40rem;
+      background-position-y: 8rem;
       background-position-x: center;
       background-attachment: scroll; }
     .header__contain .header__parallax__home {
       background-image: url("../images/parallax/mini/main-mando-576x.jpg");
-      min-height: 35rem;
+      min-height: 20rem;
       background-position-x: -6rem;
       background-attachment: scroll; }
     .header__contain .header__parallax__creators {
@@ -490,6 +490,7 @@ header .header__nav {
       background-attachment: scroll; }
     .header__contain .header__parallax__characters {
       background-image: url("../images/parallax/mini/sw-characters-576x.jpg");
+      background-position-x: 6rem;
       background-attachment: scroll; }
     .header__contain .header__parallax__episodes {
       background-image: url("../images/parallax/mini/sw-episodes-576x.jpg");
@@ -548,11 +549,22 @@ header .header__nav {
     padding: 0; }
     .charas__contain .charas__main__img {
       width: 100%; }
-  .carousel__img {
-    width: 8rem !important;
-    height: 8rem !important;
-    border-radius: 50%;
-    filter: none; }
+  .carousel-inner {
+    margin: 0 !important;
+    position: unset !important; }
+    .carousel-inner .row__carousel__characters {
+      display: flex !important;
+      justify-content: space-evenly !important; }
+      .carousel-inner .row__carousel__characters .carousel__img {
+        width: 5rem !important;
+        height: auto !important;
+        border-radius: 50%;
+        filter: none; }
+    .carousel-inner .home__carousel__arrow--characters {
+      height: 2rem !important;
+      width: auto; }
+    .carousel-inner .carousel-control-next.carousel-control-prev {
+      width: 2% !important; }
   .charas__gallery__row {
     display: flex;
     flex-wrap: wrap;
@@ -562,6 +574,12 @@ header .header__nav {
       .charas__gallery__row .charas__gallery__col img {
         margin-top: 1rem;
         filter: none; }
+  .container {
+    margin-top: 0; }
+  .subtitle {
+    margin: 0 0 2rem 0; }
+    .subtitle--margin {
+      margin-top: 3rem; }
   .creators__contain {
     padding: 2rem; }
     .creators__contain .accordion .creators__button {

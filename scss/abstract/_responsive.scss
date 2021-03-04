@@ -254,7 +254,7 @@
             font-size: 3rem;
             font-family: $font-second;
             text-align: center;
-            padding: 20rem 0 10rem 0;
+            padding: 25rem 0 15rem 0;
             line-height: 1.6;
             letter-spacing: $size-main;
         }
@@ -392,15 +392,15 @@
 
         .header__parallax__main {
             background-image: url("../images/parallax/mini/main-header-576x.jpg") !important;
-            min-height: 35rem;
-            background-position-y: 7rem;
+            min-height: 40rem;
+            background-position-y: 8rem;
             background-position-x: center;
             background-attachment: scroll;
         }
 
         .header__parallax__home {
             background-image: url("../images/parallax/mini/main-mando-576x.jpg");
-            min-height: 35rem;
+            min-height: 20rem;
             background-position-x: -6rem;
             background-attachment: scroll;
         }
@@ -412,6 +412,7 @@
 
         .header__parallax__characters {
             background-image: url("../images/parallax/mini/sw-characters-576x.jpg");
+            background-position-x: 6rem;
             background-attachment: scroll;
         }
 
@@ -513,11 +514,30 @@
 
     //CHARACTERS CAROUSEL
 
-    .carousel__img {
-        width: 8rem !important;
-        height: 8rem !important;
-        border-radius: 50%;
-        filter: none;
+    .carousel-inner {
+        margin: 0 !important;
+        position: unset !important;
+
+        .row__carousel__characters {
+            display: flex !important;
+            justify-content: space-evenly !important;
+
+            .carousel__img {
+                width: 5rem !important;
+                height: auto !important;
+                border-radius: 50%;
+                filter: none;
+            }
+        }
+
+        .home__carousel__arrow--characters {
+            height: 2rem !important;
+            width: auto;
+        }
+
+        .carousel-control-next.carousel-control-prev {
+            width: 2% !important;
+        }
     }
 
     //GALLERY IMAGES
@@ -534,6 +554,20 @@
                 margin-top: $size-main;
                 filter: none;
             }
+        }
+    }
+
+    //TITLE CREATOR
+
+    .container {
+        margin-top: 0;
+    }
+
+    .subtitle {
+        margin: 0 0 2rem 0;
+
+        &--margin {
+            margin-top: 3rem;
         }
     }
 
