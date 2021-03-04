@@ -290,22 +290,6 @@
         filter: none;
     }
 
-    //GALLERY IMAGES
-    .charas__gallery__row {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-
-        .charas__gallery__col {
-            padding: 0.5rem;
-
-            img {
-                margin-top: $size-main;
-                filter: none;
-            }
-        }
-    }
-
     //ACORDEON CREATOR
 
     .creators__contain {
