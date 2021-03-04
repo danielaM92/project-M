@@ -563,7 +563,7 @@ header .header__nav {
     .carousel-inner .home__carousel__arrow--characters {
       height: 2rem !important;
       width: auto; }
-  .carousel-control-next.carousel-control-prev {
+  .carousel__control__width {
     width: 2% !important; }
   .charas__gallery__row {
     display: flex;
