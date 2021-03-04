@@ -362,22 +362,22 @@ header .header__nav {
         font-size: 4rem;
         letter-spacing: 0.3rem; }
   .header__contain .header__parallax__main {
-    background-image: url("../images/parallax/mini/main-header-768x.jpg") !important;
+    background-image: url("../images/parallax/mini/main-header-768x.jpg");
     background-position-y: 6rem;
     background-position-x: -35rem;
     background-attachment: scroll; }
   .header__contain .header__parallax__home {
-    background-image: url("../images/parallax/mini/main-mando-768x.jpg") !important;
+    background-image: url("../images/parallax/mini/main-mando-768x.jpg");
     background-position: center;
     background-attachment: scroll; }
   .header__contain .header__parallax__creators {
-    background-image: url("../images/parallax/mini/sw-creators-768x.jpg") !important;
+    background-image: url("../images/parallax/mini/sw-creators-768x.jpg");
     background-attachment: scroll; }
   .header__contain .header__parallax__characters {
-    background-image: url("../images/parallax/mini/sw-characters-768x.jpg") !important;
+    background-image: url("../images/parallax/mini/sw-characters-768x.jpg");
     background-attachment: scroll; }
   .header__contain .header__parallax__episodes {
-    background-image: url("../images/parallax/mini/sw-episodes-768x.jpg") !important;
+    background-image: url("../images/parallax/mini/sw-episodes-768x.jpg");
     background-attachment: scroll; }
   .header__contain .header__parallax__extras {
     background-image: url("../images/parallax/mini/sw-extras-768x.jpg") !important;
@@ -396,6 +396,11 @@ header .header__nav {
     position: absolute;
     right: 0rem;
     top: 0rem; }
+  .modal-header .close-modal {
+    display: block;
+    margin: 2rem 3rem 3rem 3rem !important;
+    width: 2rem;
+    height: 2rem; }
   .modal-header .pointer {
     cursor: pointer; }
   .modal-header .close-modal {
@@ -417,7 +422,7 @@ header .header__nav {
 
 @media screen and (max-width: 576px) {
   .container {
-    padding: 0; }
+    padding: 2rem; }
   header nav {
     position: fixed;
     right: 0;
@@ -465,24 +470,25 @@ header .header__nav {
           letter-spacing: 0.3rem; }
     .header__contain .header__parallax__main {
       background-image: url("../images/parallax/mini/main-header-576x.jpg") !important;
+      min-height: 80rem;
       background-position-y: 6rem;
       background-position-x: -6rem;
       background-attachment: scroll; }
     .header__contain .header__parallax__home {
-      background-image: url("../images/parallax/mini/main-mando-576x.jpg") !important;
+      background-image: url("../images/parallax/mini/main-mando-576x.jpg");
       background-position: center;
       background-attachment: scroll; }
     .header__contain .header__parallax__creators {
-      background-image: url("../images/parallax/mini/sw-creators-576x.jpg") !important;
+      background-image: url("../images/parallax/mini/sw-creators-576x.jpg");
       background-attachment: scroll; }
     .header__contain .header__parallax__characters {
-      background-image: url("../images/parallax/mini/sw-characters-576x.jpg") !important;
+      background-image: url("../images/parallax/mini/sw-characters-576x.jpg");
       background-attachment: scroll; }
     .header__contain .header__parallax__episodes {
-      background-image: url("../images/parallax/mini/sw-episodes-576x.jpg") !important;
+      background-image: url("../images/parallax/mini/sw-episodes-576x.jpg");
       background-attachment: scroll; }
     .header__contain .header__parallax__extras {
-      background-image: url("../images/parallax/mini/sw-extras-576x.jpg") !important;
+      background-image: url("../images/parallax/mini/sw-extras-576x.jpg");
       background-attachment: scroll; }
     .header__contain .header__title {
       color: #ffebcd;
@@ -501,6 +507,8 @@ header .header__nav {
       margin: 3rem 0.4rem;
       line-height: 5rem;
       letter-spacing: 0.6rem; }
+    .header__contain .animate__animated.animate__fadeInDown {
+      --animate-duration: off; }
   .home__form__age {
     font-size: 1.5rem; }
   .home__form--color {
@@ -516,6 +524,11 @@ header .header__nav {
     position: absolute;
     right: 0rem;
     top: 0rem; }
+  .modal-header .close-modal {
+    display: block;
+    margin: 2rem 3rem 3rem 3rem !important;
+    width: 2rem;
+    height: 2rem; }
   .modal-header .pointer {
     cursor: pointer; }
   .modal-header .close-modal {

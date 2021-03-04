@@ -207,30 +207,30 @@
         }
 
         .header__parallax__main {
-            background-image: url("../images/parallax/mini/main-header-768x.jpg") !important;
+            background-image: url("../images/parallax/mini/main-header-768x.jpg");
             background-position-y: 6rem;
             background-position-x: -35rem;
             background-attachment: scroll;
         }
 
         .header__parallax__home {
-            background-image: url("../images/parallax/mini/main-mando-768x.jpg") !important;
+            background-image: url("../images/parallax/mini/main-mando-768x.jpg");
             background-position: center;
             background-attachment: scroll;
         }
 
         .header__parallax__creators {
-            background-image: url("../images/parallax/mini/sw-creators-768x.jpg") !important;
+            background-image: url("../images/parallax/mini/sw-creators-768x.jpg");
             background-attachment: scroll;
         }
 
         .header__parallax__characters {
-            background-image: url("../images/parallax/mini/sw-characters-768x.jpg") !important;
+            background-image: url("../images/parallax/mini/sw-characters-768x.jpg");
             background-attachment: scroll;
         }
 
         .header__parallax__episodes {
-            background-image: url("../images/parallax/mini/sw-episodes-768x.jpg") !important;
+            background-image: url("../images/parallax/mini/sw-episodes-768x.jpg");
             background-attachment: scroll;
         }
 
@@ -262,6 +262,13 @@
             position: absolute;
             right: 0rem;
             top: 0rem;
+        }
+
+        .close-modal {
+            display: block;
+            margin: 2rem 3rem 3rem 3rem !important;
+            width: 2rem;
+            height: 2rem;
         }
 
         .pointer {
@@ -310,7 +317,7 @@
     //HEADER
 
     .container {
-        padding: 0;
+        padding: 2rem;
     }
 
     header nav {
@@ -357,7 +364,6 @@
             .header__logo__mando {
                 height: 6rem;
                 width: 18rem;
-                // margin-left: 30rem;
             }
         }
 
@@ -380,34 +386,35 @@
 
         .header__parallax__main {
             background-image: url("../images/parallax/mini/main-header-576x.jpg") !important;
+            min-height: 80rem;
             background-position-y: 6rem;
             background-position-x: -6rem;
             background-attachment: scroll;
         }
 
         .header__parallax__home {
-            background-image: url("../images/parallax/mini/main-mando-576x.jpg") !important;
+            background-image: url("../images/parallax/mini/main-mando-576x.jpg");
             background-position: center;
             background-attachment: scroll;
         }
 
         .header__parallax__creators {
-            background-image: url("../images/parallax/mini/sw-creators-576x.jpg") !important;
+            background-image: url("../images/parallax/mini/sw-creators-576x.jpg");
             background-attachment: scroll;
         }
 
         .header__parallax__characters {
-            background-image: url("../images/parallax/mini/sw-characters-576x.jpg") !important;
+            background-image: url("../images/parallax/mini/sw-characters-576x.jpg");
             background-attachment: scroll;
         }
 
         .header__parallax__episodes {
-            background-image: url("../images/parallax/mini/sw-episodes-576x.jpg") !important;
+            background-image: url("../images/parallax/mini/sw-episodes-576x.jpg");
             background-attachment: scroll;
         }
 
         .header__parallax__extras {
-            background-image: url("../images/parallax/mini/sw-extras-576x.jpg") !important;
+            background-image: url("../images/parallax/mini/sw-extras-576x.jpg");
             background-attachment: scroll;
         }
 
@@ -430,6 +437,10 @@
             margin: 3rem 0.4rem;
             line-height: 5rem;
             letter-spacing: 0.6rem;
+        }
+
+        .animate__animated.animate__fadeInDown {
+            --animate-duration: off;
         }
     }
 
@@ -460,6 +471,13 @@
             position: absolute;
             right: 0rem;
             top: 0rem;
+        }
+
+        .close-modal {
+            display: block;
+            margin: 2rem 3rem 3rem 3rem !important;
+            width: 2rem;
+            height: 2rem;
         }
 
         .pointer {
