@@ -453,6 +453,9 @@
     .home__form--color {
         font-size: 1.8rem;
         color: $color-main;
+    }
+
+    .home__form--flex {
         display: flex;
         flex-direction: column;
         justify-content: space-between;

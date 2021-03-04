@@ -513,7 +513,8 @@ header .header__nav {
     font-size: 1.5rem; }
   .home__form--color {
     font-size: 1.8rem;
-    color: #ffebcd;
+    color: #ffebcd; }
+  .home__form--flex {
     display: flex;
     flex-direction: column;
     justify-content: space-between; }
