@@ -302,11 +302,11 @@ header .header__nav {
   .header__contain .header__parallax__main {
     background-image: url("../images/parallax/mini/main-header-min.jpg");
     background-position-y: 6rem;
-    background-position-x: -25rem; }
+    background-position-x: center; }
   .header__contain .header__parallax__home {
     background-image: url("../images/parallax/mini/main-mando-1199x.jpg");
     background-position-y: 6rem;
-    background-position-x: -20rem; }
+    background-position-x: center; }
   .header__contain .header__intro {
     color: #ffebcd;
     font-size: 3rem;
@@ -364,7 +364,7 @@ header .header__nav {
   .header__contain .header__parallax__main {
     background-image: url("../images/parallax/mini/main-header-768x.jpg");
     background-position-y: 6rem;
-    background-position-x: -35rem;
+    background-position-x: center;
     background-attachment: scroll; }
   .header__contain .header__parallax__home {
     background-image: url("../images/parallax/mini/main-mando-768x.jpg");
@@ -468,7 +468,7 @@ header .header__nav {
           letter-spacing: 0.3rem; }
     .header__contain .header__parallax__main {
       background-image: url("../images/parallax/mini/main-header-576x.jpg") !important;
-      min-height: 80rem;
+      min-height: 35rem;
       background-position-y: 8rem;
       background-position-x: center;
       background-attachment: scroll; }
@@ -498,12 +498,12 @@ header .header__nav {
       letter-spacing: 1rem; }
     .header__contain .header__intro {
       color: #ffebcd;
-      font-size: 3rem;
+      font-size: 2rem;
       font-family: "death_starregular", sans-serif;
       text-align: center;
       padding: 1rem;
       margin: 3rem 0.4rem;
-      line-height: 5rem;
+      line-height: 3rem;
       letter-spacing: 0.6rem; }
     .header__contain .animate__animated.animate__fadeInDown {
       --animate-duration: off; }
