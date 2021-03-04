@@ -422,7 +422,7 @@ header .header__nav {
 
 @media screen and (max-width: 576px) {
   .container {
-    padding: 2rem; }
+    padding: 0; }
   header nav {
     position: fixed;
     right: 0;
@@ -476,7 +476,7 @@ header .header__nav {
       background-attachment: scroll; }
     .header__contain .header__parallax__home {
       background-image: url("../images/parallax/mini/main-mando-576x.jpg");
-      background-position: center;
+      background-position-x: -6rem;
       background-attachment: scroll; }
     .header__contain .header__parallax__creators {
       background-image: url("../images/parallax/mini/sw-creators-576x.jpg");
