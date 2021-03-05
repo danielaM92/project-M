@@ -548,10 +548,10 @@ header .header__nav {
     flex-direction: column;
     padding: 0 !important; }
     .charas__contain .charas__main__img {
-      margin-top: 2rem !important;
+      margin-top: 3rem !important;
       width: 100%; }
   .carousel-inner {
-    margin: 0 !important;
+    margin: 1rem 0 !important;
     position: unset !important; }
     .carousel-inner .row__carousel__characters {
       display: flex !important;
@@ -578,7 +578,7 @@ header .header__nav {
   .creators__contain {
     padding: 2rem; }
     .creators__contain .container {
-      margin-top: 3rem !important; }
+      margin-top: 2.5rem !important; }
     .creators__contain .subtitle {
       margin: 0 0 2rem 0; }
       .creators__contain .subtitle--margin {
