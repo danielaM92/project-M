@@ -219,24 +219,28 @@
 
         .header__parallax__creators {
             background-image: url("../images/parallax/mini/sw-creators-768x.jpg");
+            background-position-y: 10rem;
             min-height: 35rem;
             background-attachment: scroll;
         }
 
         .header__parallax__characters {
             background-image: url("../images/parallax/mini/sw-characters-768x.jpg");
+            background-position-y: 10rem;
             min-height: 35rem;
             background-attachment: scroll;
         }
 
         .header__parallax__episodes {
             background-image: url("../images/parallax/mini/sw-episodes-768x.jpg");
+            background-position-y: 10rem;
             min-height: 35rem;
             background-attachment: scroll;
         }
 
         .header__parallax__extras {
             background-image: url("../images/parallax/mini/sw-extras-768x.jpg");
+            background-position-y: 10rem;
             min-height: 35rem;
             background-attachment: scroll;
         }
@@ -255,9 +259,8 @@
             color: $color-main;
             font-size: 3rem;
             font-family: $font-second;
-            display: flex;
-            justify-content: center;
-            vertical-align: middle;
+            text-align: center;
+            padding-top: 21rem;
             letter-spacing: $size-main;
         }
     }
@@ -427,24 +430,28 @@
 
         .header__parallax__creators {
             background-image: url("../images/parallax/mini/sw-creators-576x.jpg");
+            background-position-y: 6rem;
             min-height: 30rem;
             background-attachment: scroll;
         }
 
         .header__parallax__characters {
             background-image: url("../images/parallax/mini/sw-characters-576x.jpg");
+            background-position-y: 6rem;
             min-height: 30rem;
             background-attachment: scroll;
         }
 
         .header__parallax__episodes {
             background-image: url("../images/parallax/mini/sw-episodes-576x.jpg");
+            background-position-y: 6rem;
             min-height: 30rem;
             background-attachment: scroll;
         }
 
         .header__parallax__extras {
             background-image: url("../images/parallax/mini/sw-extras-576x.jpg");
+            background-position-y: 6rem;
             min-height: 30rem;
             background-attachment: scroll;
         }
@@ -453,9 +460,8 @@
             color: $color-main;
             font-size: 3rem;
             font-family: $font-second;
-            display: flex;
-            justify-content: center;
-            vertical-align: middle;
+            text-align: center;
+            padding-top: 19rem;
             letter-spacing: $size-main;
         }
 

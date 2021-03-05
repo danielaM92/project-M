@@ -124,9 +124,8 @@ header .header__nav {
         color: $color-main;
         font-size: 4rem;
         font-family: $font-second;
-        display: flex;
-        justify-content: center;
-        vertical-align: middle;
+        text-align: center;
+        padding-top: 30rem;
         letter-spacing: $size-main;
     }
 
