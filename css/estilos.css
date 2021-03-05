@@ -9,7 +9,8 @@
 
 .header__contain .header__parallax__creators, .header__contain .header__parallax__characters, .header__contain .header__parallax__episodes, .header__contain .header__parallax__extras {
   background-attachment: fixed;
-  background-position: center; }
+  background-position: center;
+  background-repeat: no-repeat; }
 
 .charas__contain .charas__main__img .charas__main__desc .charas__main__title, .extras__contain .extras__card__title {
   font-size: 2rem;
@@ -503,9 +504,9 @@ header .header__nav {
       color: #ffebcd;
       font-size: 3rem;
       font-family: "death_starregular", sans-serif;
-      text-align: center;
-      padding: 20rem 0 10rem 0;
-      line-height: 1.6;
+      display: flex;
+      justify-content: center;
+      vertical-align: middle;
       letter-spacing: 1rem; }
     .header__contain .header__intro {
       color: #ffebcd;
