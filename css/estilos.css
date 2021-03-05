@@ -560,7 +560,7 @@ header .header__nav {
         width: 6rem !important;
         height: auto !important;
         border-radius: 50%;
-        filter: none; }
+        filter: none !important; }
     .carousel-inner .home__carousel__arrow--characters {
       height: 2rem !important;
       width: auto; }
@@ -692,7 +692,8 @@ header .header__nav {
         width: 15rem;
         height: 15rem;
         border-radius: 50%;
-        filter: grayscale(80); }
+        filter: grayscale(80);
+        border: solid 1px #ffebcd; }
         .charas__contain .carousel-inner .row__carousel__characters .carousel__img:hover {
           filter: none; }
     .charas__contain .carousel-inner .home__carousel__arrow--characters {
