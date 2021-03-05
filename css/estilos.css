@@ -8,6 +8,7 @@
   background-position-y: 7rem; }
 
 .header__contain .header__parallax__creators, .header__contain .header__parallax__characters, .header__contain .header__parallax__episodes, .header__contain .header__parallax__extras {
+  min-height: 50rem;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat; }
@@ -180,9 +181,9 @@ header .header__nav {
   color: #ffebcd;
   font-size: 4rem;
   font-family: "death_starregular", sans-serif;
-  text-align: center;
-  padding: 17rem 0 4rem 0;
-  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
   letter-spacing: 1rem; }
 
 .header__nav__icon {
@@ -367,15 +368,19 @@ header .header__nav {
     background-attachment: scroll; }
   .header__contain .header__parallax__creators {
     background-image: url("../images/parallax/mini/sw-creators-768x.jpg");
+    min-height: 35rem;
     background-attachment: scroll; }
   .header__contain .header__parallax__characters {
     background-image: url("../images/parallax/mini/sw-characters-768x.jpg");
+    min-height: 35rem;
     background-attachment: scroll; }
   .header__contain .header__parallax__episodes {
     background-image: url("../images/parallax/mini/sw-episodes-768x.jpg");
+    min-height: 35rem;
     background-attachment: scroll; }
   .header__contain .header__parallax__extras {
     background-image: url("../images/parallax/mini/sw-extras-768x.jpg");
+    min-height: 35rem;
     background-attachment: scroll; }
   .header__contain .header__intro {
     color: #ffebcd;
@@ -389,9 +394,9 @@ header .header__nav {
     color: #ffebcd;
     font-size: 3rem;
     font-family: "death_starregular", sans-serif;
-    text-align: center;
-    padding: 25rem 0 15rem 0;
-    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
     letter-spacing: 1rem; }
   .home__form__age {
     font-size: 1.5rem; }
@@ -490,15 +495,19 @@ header .header__nav {
       background-attachment: scroll; }
     .header__contain .header__parallax__creators {
       background-image: url("../images/parallax/mini/sw-creators-576x.jpg");
+      min-height: 30rem;
       background-attachment: scroll; }
     .header__contain .header__parallax__characters {
       background-image: url("../images/parallax/mini/sw-characters-576x.jpg");
+      min-height: 30rem;
       background-attachment: scroll; }
     .header__contain .header__parallax__episodes {
       background-image: url("../images/parallax/mini/sw-episodes-576x.jpg");
+      min-height: 30rem;
       background-attachment: scroll; }
     .header__contain .header__parallax__extras {
       background-image: url("../images/parallax/mini/sw-extras-576x.jpg");
+      min-height: 30rem;
       background-attachment: scroll; }
     .header__contain .header__title {
       color: #ffebcd;
