@@ -8,7 +8,7 @@
   background-position-y: 7rem; }
 
 .header__contain .header__parallax__creators, .header__contain .header__parallax__characters, .header__contain .header__parallax__episodes, .header__contain .header__parallax__extras {
-  min-height: 15rem;
+  min-height: 23rem;
   max-width: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -184,7 +184,7 @@ header .header__nav {
   font-size: 4rem;
   font-family: "death_starregular", sans-serif;
   text-align: center;
-  padding: 30rem 0 20rem 0;
+  padding: 20rem 0 10rem 0;
   line-height: 1.6;
   letter-spacing: 1rem; }
 
