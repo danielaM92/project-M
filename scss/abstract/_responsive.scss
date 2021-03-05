@@ -208,8 +208,6 @@
 
         .header__parallax__main {
             background-image: url("../images/parallax/mini/main-header-768x.jpg");
-            background-position-y: 6rem;
-            background-position-x: center;
             background-attachment: scroll;
         }
 
@@ -235,7 +233,7 @@
         }
 
         .header__parallax__extras {
-            background-image: url("../images/parallax/mini/sw-extras-768x.jpg") !important;
+            background-image: url("../images/parallax/mini/sw-extras-768x.jpg");
             background-attachment: scroll;
         }
 
@@ -409,7 +407,7 @@
         }
 
         .header__parallax__main {
-            background-image: url("../images/parallax/mini/main-header-576x.jpg") !important;
+            background-image: url("../images/parallax/mini/main-header-576x.jpg");
             min-height: 40rem;
             background-position-y: 8rem;
             background-position-x: center;
@@ -419,7 +417,7 @@
         .header__parallax__home {
             background-image: url("../images/parallax/mini/main-mando-576x.jpg");
             min-height: 20rem;
-            background-position-x: -6rem;
+            background-position-x: center;
             background-attachment: scroll;
         }
 
@@ -430,7 +428,6 @@
 
         .header__parallax__characters {
             background-image: url("../images/parallax/mini/sw-characters-576x.jpg");
-            background-position-y: 6rem;
             background-attachment: scroll;
         }
 
