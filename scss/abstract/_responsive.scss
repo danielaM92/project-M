@@ -508,7 +508,7 @@
         padding: 0 !important;
 
         .charas__main__img {
-            margin-top: 2rem;
+            margin-top: 2rem!important;
             width: 100%;
         }
     }
@@ -564,7 +564,7 @@
         padding: 2rem;
 
         .container {
-            margin-top: 3rem;
+            margin-top: 3rem !important;
         }
 
         .subtitle {
@@ -574,13 +574,8 @@
                 margin-top: 3rem;
             }
         }
-    }
 
-    //ACORDEON CREATOR
-
-    .creators__contain {
-        padding: 2rem;
-
+        //ACORDEON CREATOR
         .accordion {
 
             .creators__button {
@@ -593,7 +588,7 @@
 
     //IFRAME
     .episodes__video {
-        margin-top: 2rem;
+        margin-top: 2rem!important;
         margin-bottom: 5rem;
     }
 }

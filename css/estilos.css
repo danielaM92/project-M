@@ -548,7 +548,7 @@ header .header__nav {
     flex-direction: column;
     padding: 0 !important; }
     .charas__contain .charas__main__img {
-      margin-top: 2rem;
+      margin-top: 2rem !important;
       width: 100%; }
   .carousel-inner {
     margin: 0 !important;
@@ -578,19 +578,17 @@ header .header__nav {
   .creators__contain {
     padding: 2rem; }
     .creators__contain .container {
-      margin-top: 3rem; }
+      margin-top: 3rem !important; }
     .creators__contain .subtitle {
       margin: 0 0 2rem 0; }
       .creators__contain .subtitle--margin {
         margin-top: 3rem; }
-  .creators__contain {
-    padding: 2rem; }
     .creators__contain .accordion .creators__button {
       color: lightseagreen;
       font-size: 3rem !important;
       padding: 1rem 2rem !important; }
   .episodes__video {
-    margin-top: 2rem;
+    margin-top: 2rem !important;
     margin-bottom: 5rem; } }
 
 .animate__animated.animate__fadeInDown {
