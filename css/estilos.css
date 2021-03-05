@@ -551,7 +551,7 @@ header .header__nav {
       margin-top: 3rem !important;
       width: 100%; }
   .carousel-inner {
-    margin: 1rem 0 !important;
+    margin: 2.5rem 0 !important;
     position: unset !important; }
     .carousel-inner .row__carousel__characters {
       display: flex !important;
