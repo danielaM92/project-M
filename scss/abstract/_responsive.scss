@@ -294,10 +294,10 @@
     //CHARACTERS CAROUSEL
 
     .carousel__img {
-        width: 8rem !important;
-        height: 8rem !important;
+        width: 10rem !important;
+        height: auto !important;
         border-radius: 50%;
-        filter: none;
+        filter: none !important;
     }
 
     //ACORDEON CREATOR
@@ -311,6 +311,24 @@
                 color: $color-details;
                 font-size: 3rem !important;
                 padding: 1rem 2rem !important;
+            }
+        }
+    }
+
+    //TITLE CREATOR
+
+    .creators__contain {
+        padding: 2rem;
+
+        .container {
+            margin-top: 3.5rem !important;
+        }
+
+        .subtitle {
+            margin: 0 0 2rem 0;
+
+            &--margin {
+                margin-top: 3rem;
             }
         }
     }
@@ -508,7 +526,7 @@
         padding: 0 !important;
 
         .charas__main__img {
-            margin-top: 3rem!important;
+            margin-top: 3rem !important;
             width: 100%;
         }
     }
@@ -588,7 +606,7 @@
 
     //IFRAME
     .episodes__video {
-        margin-top: 2rem!important;
+        margin-top: 2rem !important;
         margin-bottom: 5rem;
     }
 }

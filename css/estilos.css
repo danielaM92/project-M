@@ -415,16 +415,24 @@ header .header__nav {
     width: 2rem;
     height: 2rem; }
   .carousel__img {
-    width: 8rem !important;
-    height: 8rem !important;
+    width: 10rem !important;
+    height: auto !important;
     border-radius: 50%;
-    filter: none; }
+    filter: none !important; }
   .creators__contain {
     padding: 2rem; }
     .creators__contain .accordion .creators__button {
       color: lightseagreen;
       font-size: 3rem !important;
-      padding: 1rem 2rem !important; } }
+      padding: 1rem 2rem !important; }
+  .creators__contain {
+    padding: 2rem; }
+    .creators__contain .container {
+      margin-top: 3.5rem !important; }
+    .creators__contain .subtitle {
+      margin: 0 0 2rem 0; }
+      .creators__contain .subtitle--margin {
+        margin-top: 3rem; } }
 
 @media screen and (max-width: 576px) {
   .container {
