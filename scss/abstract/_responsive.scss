@@ -208,7 +208,9 @@
 
         .header__parallax__main {
             background-image: url("../images/parallax/mini/main-header-768x.jpg");
-            background-attachment: scroll;
+            min-height: 40rem;
+            background-position-y: 8rem;
+            background-position-x: center;
         }
 
         .header__parallax__home {
@@ -423,7 +425,8 @@
 
         .header__parallax__home {
             background-image: url("../images/parallax/mini/main-mando-576x.jpg");
-            min-height: 20rem;
+            min-height: 30rem;
+            background-position-y: 0.1rem;
             background-position-x: center;
             background-attachment: scroll;
         }
