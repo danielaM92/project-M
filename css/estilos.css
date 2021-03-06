@@ -11,7 +11,8 @@
   min-height: 50rem;
   background-attachment: fixed;
   background-position: center;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .charas__contain .charas__main__img .charas__main__desc .charas__main__title, .extras__contain .extras__card__title {
   font-size: 2rem;
