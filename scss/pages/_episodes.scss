@@ -6,10 +6,10 @@
         display: flex;
         justify-content: center;
     }
-    
+
     .episodes__video {
         margin-top: 5rem;
-        margin-bottom: 5rem;
+        margin-bottom: 2rem;
 
         // IFRAME RESPONSIVE
         .responsive__container {
@@ -43,6 +43,7 @@
     p {
         margin-left: 2rem;
         margin-right: 2rem;
+        margin-bottom: 5rem;
         @extend %paragraph;
     }
 

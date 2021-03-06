@@ -741,7 +741,7 @@ header .header__nav {
 
 .episodes__contain .episodes__video {
   margin-top: 5rem;
-  margin-bottom: 5rem; }
+  margin-bottom: 2rem; }
   .episodes__contain .episodes__video .responsive__container {
     position: relative;
     overflow: hidden;
@@ -766,7 +766,8 @@ header .header__nav {
 
 .episodes__contain p {
   margin-left: 2rem;
-  margin-right: 2rem; }
+  margin-right: 2rem;
+  margin-bottom: 5rem; }
 
 .episodes__contain a {
   color: #ffebcd;
