@@ -1,6 +1,12 @@
 .episodes__contain {
 
     //IFRAME
+
+    .episodes__row__iframe {
+        display: flex;
+        justify-content: center;
+    }
+    
     .episodes__video {
         margin-top: 5rem;
         margin-bottom: 5rem;
@@ -23,20 +29,21 @@
                 border: none;
             }
         }
+    }
 
-        .episodes__video__explain {
-            color: $color-second;
-            margin-top: 3rem;
-            margin-bottom: 2rem;
-            font-size: 3rem;
-            text-align: center;
-        }
+    // IFRAME EXPLAIN
+    .episodes__video__explain {
+        color: $color-second;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+        font-size: 3rem;
+        text-align: center;
+    }
 
-        p {
-            margin-left: 2rem;
-            margin-right: 2rem;
-            @extend %paragraph;
-        }
+    p {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        @extend %paragraph;
     }
 
     //TABS

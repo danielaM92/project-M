@@ -19,7 +19,7 @@
   color: orange;
   padding-bottom: 1rem; }
 
-.home__contain .home__destacados, .creators__contain p, .charas__contain .charas__main__img .charas__main__desc p, .episodes__contain .episodes__video p, .episodes__contain .episodes__tab .card p, .extras__contain .extras__card {
+.home__contain .home__destacados, .creators__contain p, .charas__contain .charas__main__img .charas__main__desc p, .episodes__contain p, .episodes__contain .episodes__tab .card p, .extras__contain .extras__card {
   font-size: 1.5rem;
   color: #ffebcd; }
 
@@ -735,6 +735,10 @@ header .header__nav {
         .charas__contain .charas__gallery__row .charas__gallery__col img:hover {
           filter: grayscale(80); }
 
+.episodes__contain .episodes__row__iframe {
+  display: flex;
+  justify-content: center; }
+
 .episodes__contain .episodes__video {
   margin-top: 5rem;
   margin-bottom: 5rem; }
@@ -752,15 +756,17 @@ header .header__nav {
       width: 100%;
       height: 100%;
       border: none; }
-  .episodes__contain .episodes__video .episodes__video__explain {
-    color: orange;
-    margin-top: 3rem;
-    margin-bottom: 2rem;
-    font-size: 3rem;
-    text-align: center; }
-  .episodes__contain .episodes__video p {
-    margin-left: 2rem;
-    margin-right: 2rem; }
+
+.episodes__contain .episodes__video__explain {
+  color: orange;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  text-align: center; }
+
+.episodes__contain p {
+  margin-left: 2rem;
+  margin-right: 2rem; }
 
 .episodes__contain a {
   color: #ffebcd;
